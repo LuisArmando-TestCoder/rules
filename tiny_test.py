@@ -30,4 +30,4 @@ for naturalRestrictedSentence in natural_restricted_sentences_auth_context:
 # transform it into real as it categorizes it as such],
 # don't need an infinite implementation, 
 # but still it could be cool to have it, 
-# eventhough a finite system such as a 2024 laptop is finite in computing power)
+# eventhough a finite system, such as a 2024 laptop, is finite in computing power)
