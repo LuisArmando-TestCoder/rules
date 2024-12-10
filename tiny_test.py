@@ -21,3 +21,5 @@ for naturalRestrictedSentence in natural_restricted_sentences_auth_context:
         print("✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅")
     else:
         print("❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌")
+
+# current bug is using "if " at the end of a condition but the "if " in the non_statements is neccesary, looking for a workaround

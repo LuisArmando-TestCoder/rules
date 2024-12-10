@@ -54,7 +54,7 @@ natural_restricted_sentences_auth_context = [
     # Basic sentences
     "if user_is_authenticated then user_has_permission",
     "user_is_authenticated and user_has_permission",
-    "not data_is_valid",
+    "not data_is_invalid",
     "(user_is_authenticated and (user_has_permission or data_is_valid))",
     "not (user_is_authenticated and user_has_permission)",
     "(not user_is_authenticated) or (user_has_permission and data_is_valid)",
@@ -63,7 +63,7 @@ natural_restricted_sentences_auth_context = [
     # Deeper nesting
     "not (user_is_authenticated and (user_has_permission or (data_is_valid and process_can_continue)))",
     "((not user_is_authenticated) and user_has_permission) or (data_is_valid and (not process_can_continue))",
-    "if ((user_is_authenticated or user_has_permission) and (not data_is_valid)) then (process_can_continue or not system_is_operational)",
+    "if ((user_is_authenticated or user_has_permission) and (not data_is_invalid)) then (process_can_continue or not system_is_operational)",
     
     # Multiple levels of implication
     "if (if user_is_authenticated then user_has_permission) then (if user_has_permission then data_is_valid)",
