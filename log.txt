@@ -1,0 +1,844 @@
+if user_is_authenticated then user_has_permission
+if A(x) then B(y)
+The sentence follows logical rules.
+A(x) | B(y) | Result
+-----------------
+False | False | True
+False | True | True
+True | False | False
+True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+user_is_authenticated and user_has_permission
+A(x) and B(y)
+The sentence follows logical rules.
+A(x) | B(y) | Result
+-----------------
+False | False | False
+False | True | False
+True | False | False
+True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not data_is_valid
+not A(x)
+The sentence follows logical rules.
+A(x) | Result
+-------------
+False | True
+True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(user_is_authenticated and (user_has_permission or data_is_valid))
+(A(x) and (B(y) or C(z)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | Result
+---------------------
+False | False | False | False
+False | False | True | False
+False | True | False | False
+False | True | True | False
+True | False | False | False
+True | False | True | True
+True | True | False | True
+True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not (user_is_authenticated and user_has_permission)
+not (A(x) and B(y))
+The sentence follows logical rules.
+A(x) | B(y) | Result
+-----------------
+False | False | True
+False | True | True
+True | False | True
+True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(not user_is_authenticated) or (user_has_permission and data_is_valid)
+(not A(x)) or (B(y) and C(z))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | Result
+---------------------
+False | False | False | True
+False | False | True | True
+False | True | False | True
+False | True | True | True
+True | False | False | False
+True | False | True | False
+True | True | False | False
+True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if (user_is_authenticated and user_has_permission) then (data_is_valid or not process_can_continue)
+if (A(x) and B(y)) then (C(z) or not D(a))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | True
+False | False | False | True | True
+False | False | True | False | True
+False | False | True | True | True
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | True
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | True
+True | False | True | True | True
+True | True | False | False | True
+True | True | False | True | False
+True | True | True | False | True
+True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not (user_is_authenticated and (user_has_permission or (data_is_valid and process_can_continue)))
+not (A(x) and (B(y) or (C(z) and D(a))))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | True
+False | False | False | True | True
+False | False | True | False | True
+False | False | True | True | True
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | True
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | True
+True | False | True | True | False
+True | True | False | False | False
+True | True | False | True | False
+True | True | True | False | False
+True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+((not user_is_authenticated) and user_has_permission) or (data_is_valid and (not process_can_continue))
+((not A(x)) and B(y)) or (C(z) and (not D(a)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | False
+False | False | False | True | False
+False | False | True | False | True
+False | False | True | True | False
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | True
+False | True | True | True | True
+True | False | False | False | False
+True | False | False | True | False
+True | False | True | False | True
+True | False | True | True | False
+True | True | False | False | False
+True | True | False | True | False
+True | True | True | False | True
+True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if ((user_is_authenticated or user_has_permission) and (not data_is_valid)) then (process_can_continue or not system_is_operational)
+if ((A(x) or B(y)) and (not C(z))) then (D(a) or not E(b))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | True
+False | False | False | False | True | True
+False | False | False | True | False | True
+False | False | False | True | True | True
+False | False | True | False | False | True
+False | False | True | False | True | True
+False | False | True | True | False | True
+False | False | True | True | True | True
+False | True | False | False | False | True
+False | True | False | False | True | False
+False | True | False | True | False | True
+False | True | False | True | True | True
+False | True | True | False | False | True
+False | True | True | False | True | True
+False | True | True | True | False | True
+False | True | True | True | True | True
+True | False | False | False | False | True
+True | False | False | False | True | False
+True | False | False | True | False | True
+True | False | False | True | True | True
+True | False | True | False | False | True
+True | False | True | False | True | True
+True | False | True | True | False | True
+True | False | True | True | True | True
+True | True | False | False | False | True
+True | True | False | False | True | False
+True | True | False | True | False | True
+True | True | False | True | True | True
+True | True | True | False | False | True
+True | True | True | False | True | True
+True | True | True | True | False | True
+True | True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if (if user_is_authenticated then user_has_permission) then (if user_has_permission then data_is_valid)
+if (if A(x) then B(y)) then (if B(y) then C(z))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | Result
+---------------------
+False | False | False | True
+False | False | True | True
+False | True | False | False
+False | True | True | True
+True | False | False | True
+True | False | True | True
+True | True | False | False
+True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not (if (user_is_authenticated and user_has_permission) then (data_is_valid or process_can_continue))
+not (if (A(x) and B(y)) then (C(z) or D(a)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | False
+False | False | False | True | False
+False | False | True | False | False
+False | False | True | True | False
+False | True | False | False | False
+False | True | False | True | False
+False | True | True | False | False
+False | True | True | True | False
+True | False | False | False | False
+True | False | False | True | False
+True | False | True | False | False
+True | False | True | True | False
+True | True | False | False | True
+True | True | False | True | False
+True | True | True | False | False
+True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if (not user_is_authenticated) then (not (user_has_permission or data_is_valid))
+if (not A(x)) then (not (B(y) or C(z)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | Result
+---------------------
+False | False | False | True
+False | False | True | False
+False | True | False | False
+False | True | True | False
+True | False | False | True
+True | False | True | True
+True | True | False | True
+True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(user_is_authenticated or (user_has_permission and (if data_is_valid then process_can_continue)))
+(A(x) or (B(y) and (if C(z) then D(a))))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | False
+False | False | False | True | False
+False | False | True | False | False
+False | False | True | True | False
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | False
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | True
+True | False | True | True | True
+True | True | False | False | True
+True | True | False | True | True
+True | True | True | False | True
+True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not ((if user_is_authenticated then user_has_permission) or (data_is_valid and not process_can_continue))
+not ((if A(x) then B(y)) or (C(z) and not D(a)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | False
+False | False | False | True | False
+False | False | True | False | False
+False | False | True | True | False
+False | True | False | False | False
+False | True | False | True | False
+False | True | True | False | False
+False | True | True | True | False
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | False
+True | False | True | True | True
+True | True | False | False | False
+True | True | False | True | False
+True | True | True | False | False
+True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(if (user_is_authenticated and user_has_permission) then data_is_valid) or (not process_can_continue)
+(if (A(x) and B(y)) then C(z)) or (not D(a))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | True
+False | False | False | True | True
+False | False | True | False | True
+False | False | True | True | True
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | True
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | True
+True | False | True | True | True
+True | True | False | False | True
+True | True | False | True | False
+True | True | True | False | True
+True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not (if (user_is_authenticated and (user_has_permission or user_has_permission)) then ((data_is_valid and process_can_continue) → (not system_is_operational)))
+not (if (A(x) and (B(y) or B(y))) then ((C(z) and D(a)) → (not E(b))))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | False
+False | False | False | False | True | False
+False | False | False | True | False | False
+False | False | False | True | True | False
+False | False | True | False | False | False
+False | False | True | False | True | False
+False | False | True | True | False | False
+False | False | True | True | True | False
+False | True | False | False | False | False
+False | True | False | False | True | False
+False | True | False | True | False | False
+False | True | False | True | True | False
+False | True | True | False | False | False
+False | True | True | False | True | False
+False | True | True | True | False | False
+False | True | True | True | True | False
+True | False | False | False | False | False
+True | False | False | False | True | False
+True | False | False | True | False | False
+True | False | False | True | True | False
+True | False | True | False | False | False
+True | False | True | False | True | False
+True | False | True | True | False | False
+True | False | True | True | True | False
+True | True | False | False | False | False
+True | True | False | False | True | False
+True | True | False | True | False | False
+True | True | False | True | True | False
+True | True | True | False | False | False
+True | True | True | False | True | False
+True | True | True | True | False | False
+True | True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(((if user_is_authenticated then user_has_permission) → data_is_valid) and process_can_continue) or (not (system_is_operational and log_is_enabled))
+(((if A(x) then B(y)) → C(z)) and D(a)) or (not (E(b) and F(c)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | F(c) | Result
+---------------------------------
+False | False | False | False | False | False | True
+False | False | False | False | False | True | True
+False | False | False | False | True | False | True
+False | False | False | False | True | True | False
+False | False | False | True | False | False | True
+False | False | False | True | False | True | True
+False | False | False | True | True | False | True
+False | False | False | True | True | True | False
+False | False | True | False | False | False | True
+False | False | True | False | False | True | True
+False | False | True | False | True | False | True
+False | False | True | False | True | True | False
+False | False | True | True | False | False | True
+False | False | True | True | False | True | True
+False | False | True | True | True | False | True
+False | False | True | True | True | True | True
+False | True | False | False | False | False | True
+False | True | False | False | False | True | True
+False | True | False | False | True | False | True
+False | True | False | False | True | True | False
+False | True | False | True | False | False | True
+False | True | False | True | False | True | True
+False | True | False | True | True | False | True
+False | True | False | True | True | True | False
+False | True | True | False | False | False | True
+False | True | True | False | False | True | True
+False | True | True | False | True | False | True
+False | True | True | False | True | True | False
+False | True | True | True | False | False | True
+False | True | True | True | False | True | True
+False | True | True | True | True | False | True
+False | True | True | True | True | True | True
+True | False | False | False | False | False | True
+True | False | False | False | False | True | True
+True | False | False | False | True | False | True
+True | False | False | False | True | True | False
+True | False | False | True | False | False | True
+True | False | False | True | False | True | True
+True | False | False | True | True | False | True
+True | False | False | True | True | True | True
+True | False | True | False | False | False | True
+True | False | True | False | False | True | True
+True | False | True | False | True | False | True
+True | False | True | False | True | True | False
+True | False | True | True | False | False | True
+True | False | True | True | False | True | True
+True | False | True | True | True | False | True
+True | False | True | True | True | True | True
+True | True | False | False | False | False | True
+True | True | False | False | False | True | True
+True | True | False | False | True | False | True
+True | True | False | False | True | True | False
+True | True | False | True | False | False | True
+True | True | False | True | False | True | True
+True | True | False | True | True | False | True
+True | True | False | True | True | True | False
+True | True | True | False | False | False | True
+True | True | True | False | False | True | True
+True | True | True | False | True | False | True
+True | True | True | False | True | True | False
+True | True | True | True | False | False | True
+True | True | True | True | False | True | True
+True | True | True | True | True | False | True
+True | True | True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if (user_is_authenticated and user_has_permission) then (data_is_valid or process_can_continue)
+if (A(x) and B(y)) then (C(z) or D(a))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | True
+False | False | False | True | True
+False | False | True | False | True
+False | False | True | True | True
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | True
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | True
+True | False | True | True | True
+True | True | False | False | False
+True | True | False | True | True
+True | True | True | False | True
+True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not (user_is_authenticated and (user_has_permission or data_is_valid))
+not (A(x) and (B(y) or C(z)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | Result
+---------------------
+False | False | False | True
+False | False | True | True
+False | True | False | True
+False | True | True | True
+True | False | False | True
+True | False | True | False
+True | True | False | False
+True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(user_is_authenticated or (user_has_permission and data_is_valid))
+(A(x) or (B(y) and C(z)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | Result
+---------------------
+False | False | False | False
+False | False | True | False
+False | True | False | False
+False | True | True | True
+True | False | False | True
+True | False | True | True
+True | True | False | True
+True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if ((user_is_authenticated or user_has_permission) and data_is_valid) then process_can_continue
+if ((A(x) or B(y)) and C(z)) then D(a)
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | True
+False | False | False | True | True
+False | False | True | False | True
+False | False | True | True | True
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | False
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | False
+True | False | True | True | True
+True | True | False | False | True
+True | True | False | True | True
+True | True | True | False | False
+True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not ((user_is_authenticated and user_has_permission) or (if data_is_valid then process_can_continue))
+not ((A(x) and B(y)) or (if C(z) then D(a)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | False
+False | False | False | True | False
+False | False | True | False | True
+False | False | True | True | False
+False | True | False | False | False
+False | True | False | True | False
+False | True | True | False | True
+False | True | True | True | False
+True | False | False | False | False
+True | False | False | True | False
+True | False | True | False | True
+True | False | True | True | False
+True | True | False | False | False
+True | True | False | True | False
+True | True | True | False | False
+True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if (if user_is_authenticated then user_has_permission) then data_is_valid
+if (if A(x) then B(y)) then C(z)
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | Result
+---------------------
+False | False | False | False
+False | False | True | True
+False | True | False | False
+False | True | True | True
+True | False | False | True
+True | False | True | True
+True | True | False | False
+True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if (if user_is_authenticated then user_has_permission) then ((if user_has_permission then data_is_valid) → process_can_continue)
+if (if A(x) then B(y)) then ((if B(y) then C(z)) → D(a))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | False
+False | False | False | True | True
+False | False | True | False | False
+False | False | True | True | True
+False | True | False | False | True
+False | True | False | True | True
+False | True | True | False | False
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | True
+True | False | True | True | True
+True | True | False | False | True
+True | True | False | True | True
+True | True | True | False | False
+True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not (if ((user_is_authenticated and user_has_permission) → data_is_valid) then (process_can_continue or system_is_operational))
+not (if ((A(x) and B(y)) → C(z)) then (D(a) or E(b)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | True
+False | False | False | False | True | False
+False | False | False | True | False | False
+False | False | False | True | True | False
+False | False | True | False | False | True
+False | False | True | False | True | False
+False | False | True | True | False | False
+False | False | True | True | True | False
+False | True | False | False | False | True
+False | True | False | False | True | False
+False | True | False | True | False | False
+False | True | False | True | True | False
+False | True | True | False | False | True
+False | True | True | False | True | False
+False | True | True | True | False | False
+False | True | True | True | True | False
+True | False | False | False | False | True
+True | False | False | False | True | False
+True | False | False | True | False | False
+True | False | False | True | True | False
+True | False | True | False | False | True
+True | False | True | False | True | False
+True | False | True | True | False | False
+True | False | True | True | True | False
+True | True | False | False | False | False
+True | True | False | False | True | False
+True | True | False | True | False | False
+True | True | False | True | True | False
+True | True | True | False | False | True
+True | True | True | False | True | False
+True | True | True | True | False | False
+True | True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(((if user_is_authenticated then user_has_permission) → data_is_valid) and process_can_continue) or (not system_is_operational)
+(((if A(x) then B(y)) → C(z)) and D(a)) or (not E(b))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | True
+False | False | False | False | True | False
+False | False | False | True | False | True
+False | False | False | True | True | False
+False | False | True | False | False | True
+False | False | True | False | True | False
+False | False | True | True | False | True
+False | False | True | True | True | True
+False | True | False | False | False | True
+False | True | False | False | True | False
+False | True | False | True | False | True
+False | True | False | True | True | False
+False | True | True | False | False | True
+False | True | True | False | True | False
+False | True | True | True | False | True
+False | True | True | True | True | True
+True | False | False | False | False | True
+True | False | False | False | True | False
+True | False | False | True | False | True
+True | False | False | True | True | True
+True | False | True | False | False | True
+True | False | True | False | True | False
+True | False | True | True | False | True
+True | False | True | True | True | True
+True | True | False | False | False | True
+True | True | False | False | True | False
+True | True | False | True | False | True
+True | True | False | True | True | False
+True | True | True | False | False | True
+True | True | True | False | True | False
+True | True | True | True | False | True
+True | True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(not (user_is_authenticated and user_has_permission)) or ((if data_is_valid then process_can_continue) and system_is_operational)
+(not (A(x) and B(y))) or ((if C(z) then D(a)) and E(b))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | True
+False | False | False | False | True | True
+False | False | False | True | False | True
+False | False | False | True | True | True
+False | False | True | False | False | True
+False | False | True | False | True | True
+False | False | True | True | False | True
+False | False | True | True | True | True
+False | True | False | False | False | True
+False | True | False | False | True | True
+False | True | False | True | False | True
+False | True | False | True | True | True
+False | True | True | False | False | True
+False | True | True | False | True | True
+False | True | True | True | False | True
+False | True | True | True | True | True
+True | False | False | False | False | True
+True | False | False | False | True | True
+True | False | False | True | False | True
+True | False | False | True | True | True
+True | False | True | False | False | True
+True | False | True | False | True | True
+True | False | True | True | False | True
+True | False | True | True | True | True
+True | True | False | False | False | False
+True | True | False | False | True | True
+True | True | False | True | False | False
+True | True | False | True | True | True
+True | True | True | False | False | False
+True | True | True | False | True | False
+True | True | True | True | False | False
+True | True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if ((user_is_authenticated or user_has_permission) and (if data_is_valid then process_can_continue)) then (system_is_operational and log_is_enabled)
+if ((A(x) or B(y)) and (if C(z) then D(a))) then (E(b) and F(c))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | F(c) | Result
+---------------------------------
+False | False | False | False | False | False | True
+False | False | False | False | False | True | True
+False | False | False | False | True | False | True
+False | False | False | False | True | True | True
+False | False | False | True | False | False | True
+False | False | False | True | False | True | True
+False | False | False | True | True | False | True
+False | False | False | True | True | True | True
+False | False | True | False | False | False | True
+False | False | True | False | False | True | True
+False | False | True | False | True | False | True
+False | False | True | False | True | True | True
+False | False | True | True | False | False | True
+False | False | True | True | False | True | True
+False | False | True | True | True | False | True
+False | False | True | True | True | True | True
+False | True | False | False | False | False | False
+False | True | False | False | False | True | False
+False | True | False | False | True | False | False
+False | True | False | False | True | True | True
+False | True | False | True | False | False | False
+False | True | False | True | False | True | False
+False | True | False | True | True | False | False
+False | True | False | True | True | True | True
+False | True | True | False | False | False | True
+False | True | True | False | False | True | True
+False | True | True | False | True | False | True
+False | True | True | False | True | True | True
+False | True | True | True | False | False | False
+False | True | True | True | False | True | False
+False | True | True | True | True | False | False
+False | True | True | True | True | True | True
+True | False | False | False | False | False | False
+True | False | False | False | False | True | False
+True | False | False | False | True | False | False
+True | False | False | False | True | True | True
+True | False | False | True | False | False | False
+True | False | False | True | False | True | False
+True | False | False | True | True | False | False
+True | False | False | True | True | True | True
+True | False | True | False | False | False | True
+True | False | True | False | False | True | True
+True | False | True | False | True | False | True
+True | False | True | False | True | True | True
+True | False | True | True | False | False | False
+True | False | True | True | False | True | False
+True | False | True | True | True | False | False
+True | False | True | True | True | True | True
+True | True | False | False | False | False | False
+True | True | False | False | False | True | False
+True | True | False | False | True | False | False
+True | True | False | False | True | True | True
+True | True | False | True | False | False | False
+True | True | False | True | False | True | False
+True | True | False | True | True | False | False
+True | True | False | True | True | True | True
+True | True | True | False | False | False | True
+True | True | True | False | False | True | True
+True | True | True | False | True | False | True
+True | True | True | False | True | True | True
+True | True | True | True | False | False | False
+True | True | True | True | False | True | False
+True | True | True | True | True | False | False
+True | True | True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not (((user_is_authenticated and user_has_permission) → data_is_valid) or (process_can_continue and system_is_operational))
+not (((A(x) and B(y)) → C(z)) or (D(a) and E(b)))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | False
+False | False | False | False | True | False
+False | False | False | True | False | False
+False | False | False | True | True | False
+False | False | True | False | False | False
+False | False | True | False | True | False
+False | False | True | True | False | False
+False | False | True | True | True | False
+False | True | False | False | False | False
+False | True | False | False | True | False
+False | True | False | True | False | False
+False | True | False | True | True | False
+False | True | True | False | False | False
+False | True | True | False | True | False
+False | True | True | True | False | False
+False | True | True | True | True | False
+True | False | False | False | False | False
+True | False | False | False | True | False
+True | False | False | True | False | False
+True | False | False | True | True | False
+True | False | True | False | False | False
+True | False | True | False | True | False
+True | False | True | True | False | False
+True | False | True | True | True | False
+True | True | False | False | False | True
+True | True | False | False | True | True
+True | True | False | True | False | True
+True | True | False | True | True | False
+True | True | True | False | False | False
+True | True | True | False | True | False
+True | True | True | True | False | False
+True | True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+(if (if user_is_authenticated then user_has_permission) then data_is_valid) or (not process_can_continue)
+(if (if A(x) then B(y)) then C(z)) or (not D(a))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | Result
+-------------------------
+False | False | False | False | True
+False | False | False | True | False
+False | False | True | False | True
+False | False | True | True | True
+False | True | False | False | True
+False | True | False | True | False
+False | True | True | False | True
+False | True | True | True | True
+True | False | False | False | True
+True | False | False | True | True
+True | False | True | False | True
+True | False | True | True | True
+True | True | False | False | True
+True | True | False | True | False
+True | True | True | False | True
+True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+if (((user_is_authenticated and (user_has_permission or data_is_valid)) → process_can_continue)) then system_is_operational
+if (((A(x) and (B(y) or C(z))) → D(a))) then E(b)
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | False
+False | False | False | False | True | True
+False | False | False | True | False | False
+False | False | False | True | True | True
+False | False | True | False | False | False
+False | False | True | False | True | True
+False | False | True | True | False | False
+False | False | True | True | True | True
+False | True | False | False | False | False
+False | True | False | False | True | True
+False | True | False | True | False | False
+False | True | False | True | True | True
+False | True | True | False | False | False
+False | True | True | False | True | True
+False | True | True | True | False | False
+False | True | True | True | True | True
+True | False | False | False | False | False
+True | False | False | False | True | True
+True | False | False | True | False | False
+True | False | False | True | True | True
+True | False | True | False | False | True
+True | False | True | False | True | True
+True | False | True | True | False | False
+True | False | True | True | True | True
+True | True | False | False | False | True
+True | True | False | False | True | True
+True | True | False | True | False | False
+True | True | False | True | True | True
+True | True | True | False | False | True
+True | True | True | False | True | True
+True | True | True | True | False | False
+True | True | True | True | True | True
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+not ((user_is_authenticated and user_has_permission) → (data_is_valid and (process_can_continue or system_is_operational)))
+not ((A(x) and B(y)) → (C(z) and (D(a) or E(b))))
+The sentence follows logical rules.
+A(x) | B(y) | C(z) | D(a) | E(b) | Result
+-----------------------------
+False | False | False | False | False | False
+False | False | False | False | True | False
+False | False | False | True | False | False
+False | False | False | True | True | False
+False | False | True | False | False | False
+False | False | True | False | True | False
+False | False | True | True | False | False
+False | False | True | True | True | False
+False | True | False | False | False | False
+False | True | False | False | True | False
+False | True | False | True | False | False
+False | True | False | True | True | False
+False | True | True | False | False | False
+False | True | True | False | True | False
+False | True | True | True | False | False
+False | True | True | True | True | False
+True | False | False | False | False | False
+True | False | False | False | True | False
+True | False | False | True | False | False
+True | False | False | True | True | False
+True | False | True | False | False | False
+True | False | True | False | True | False
+True | False | True | True | False | False
+True | False | True | True | True | False
+True | True | False | False | False | True
+True | True | False | False | True | True
+True | True | False | True | False | True
+True | True | False | True | True | True
+True | True | True | False | False | True
+True | True | True | False | True | False
+True | True | True | True | False | False
+True | True | True | True | True | False
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅

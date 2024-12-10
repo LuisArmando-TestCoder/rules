@@ -69,7 +69,7 @@ class LogicalLanguageProcessor:
 
     def preprocess_if_then(self, sentence):
         while True:
-            start_pos = sentence.find('(If ')
+            start_pos = sentence.lower().find('(if ')
             if start_pos == -1:
                 break  # No '(If ' found, done
 
@@ -260,16 +260,3 @@ class LogicalLanguageProcessor:
             self.collect_variables(formula[2], variables)
             self.collect_variables(formula[3], variables)
 
-from sentences import sentences
-
-if __name__ == "__main__":
-    processor = LogicalLanguageProcessor()
-    # Test with a sample formula
-    
-    for sentence in sentences:
-        logical_form, message = processor.process_sentence(sentence)
-        if message == "The sentence follows logical rules.":
-            print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-            print(logical_form)
-            formula, _ = processor.parse_formula(processor.tokenize(logical_form))
-            processor.generate_truth_table(formula)
