@@ -26,13 +26,6 @@ sentences = [
     # # Extreme nesting
     "NOT (If ((P(x) AND (Q(y) OR R(z))) → (S(a) AND T(b))) then (NOT U(c)))",
     "(((P(x) → Q(y)) → R(z)) AND S(a)) OR (NOT (T(b) AND U(c)))",
-
-    # # Simple Sentences
-    "If P(x) then Q(x)",
-    "P(x) AND Q(y)",
-    "NOT R(z)",
-    "(P(x) OR Q(y))",
-    "NOT (P(x) AND Q(x))",
     
     # # Moderately Nested Sentences
     "If (P(x) AND Q(y)) then (R(z) OR S(a))",
