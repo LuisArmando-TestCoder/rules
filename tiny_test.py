@@ -22,6 +22,4 @@ for naturalRestrictedSentence in natural_restricted_sentences_auth_context:
     else:
         print("❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌")
 
-# current bug is using "if " at the end of a condition but the "if " in the non_statements is neccesary, looking for a workaround
-
-# don't you dare use: alif, aperitif, calif, cluif, coif, cuif, digestif, embelif, fixatif, GIF, gonif, hanif, khalif, kharif, kif, leitmotif, massif, metif, motif, mutasarrif, mutessarif, naif, neif, recitatif, reif, restif, saif, sanserif, SCIF, seif, serif, sharif, sherif, skaif, skeif, sportif, waif, Zif. With a space in the end of a condition
+# don't use the non_statements when typing conditions
