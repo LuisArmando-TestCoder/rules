@@ -1,17 +1,29 @@
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if user_is_authenticated then user_has_permission
+
 True: not user_is_authenticated | not user_has_permission
 True: not user_is_authenticated | user_has_permission
 False: user_is_authenticated | not user_has_permission
 True: user_is_authenticated | user_has_permission
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+user_is_authenticated and user_has_permission
+
 False: not user_is_authenticated | not user_has_permission
 False: not user_is_authenticated | user_has_permission
 False: user_is_authenticated | not user_has_permission
 True: user_is_authenticated | user_has_permission
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not data_is_invalid
+
 True: not data_is_invalid
 False: data_is_invalid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(user_is_authenticated and (user_has_permission or data_is_valid))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid
 False: not user_is_authenticated | not user_has_permission | data_is_valid
 False: not user_is_authenticated | user_has_permission | not data_is_valid
@@ -21,11 +33,17 @@ True: user_is_authenticated | not user_has_permission | data_is_valid
 True: user_is_authenticated | user_has_permission | not data_is_valid
 True: user_is_authenticated | user_has_permission | data_is_valid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (user_is_authenticated and user_has_permission)
+
 True: not user_is_authenticated | not user_has_permission
 True: not user_is_authenticated | user_has_permission
 True: user_is_authenticated | not user_has_permission
 False: user_is_authenticated | user_has_permission
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(not user_is_authenticated) or (user_has_permission and data_is_valid)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid
 True: not user_is_authenticated | not user_has_permission | data_is_valid
 True: not user_is_authenticated | user_has_permission | not data_is_valid
@@ -35,6 +53,9 @@ False: user_is_authenticated | not user_has_permission | data_is_valid
 False: user_is_authenticated | user_has_permission | not data_is_valid
 True: user_is_authenticated | user_has_permission | data_is_valid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (user_is_authenticated and user_has_permission) then (data_is_valid or not process_can_continue)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -52,6 +73,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (user_is_authenticated and (user_has_permission or (data_is_valid and process_can_continue)))
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -69,6 +93,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+((not user_is_authenticated) and user_has_permission) or (data_is_valid and (not process_can_continue))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -86,6 +113,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((user_is_authenticated or user_has_permission) and (not data_is_invalid)) then (process_can_continue or not system_is_operational)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_invalid | not process_can_continue | not system_is_operational
 True: not user_is_authenticated | not user_has_permission | not data_is_invalid | not process_can_continue | system_is_operational
 True: not user_is_authenticated | not user_has_permission | not data_is_invalid | process_can_continue | not system_is_operational
@@ -119,6 +149,9 @@ True: user_is_authenticated | user_has_permission | data_is_invalid | not proces
 True: user_is_authenticated | user_has_permission | data_is_invalid | process_can_continue | not system_is_operational
 True: user_is_authenticated | user_has_permission | data_is_invalid | process_can_continue | system_is_operational
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if user_is_authenticated then user_has_permission) then (if user_has_permission then data_is_valid)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid
 True: not user_is_authenticated | not user_has_permission | data_is_valid
 False: not user_is_authenticated | user_has_permission | not data_is_valid
@@ -128,6 +161,9 @@ True: user_is_authenticated | not user_has_permission | data_is_valid
 False: user_is_authenticated | user_has_permission | not data_is_valid
 True: user_is_authenticated | user_has_permission | data_is_valid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if (user_is_authenticated and user_has_permission) then (data_is_valid or process_can_continue))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -145,6 +181,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (not user_is_authenticated) then (not (user_has_permission or data_is_valid))
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid
 False: not user_is_authenticated | not user_has_permission | data_is_valid
 False: not user_is_authenticated | user_has_permission | not data_is_valid
@@ -154,6 +193,9 @@ True: user_is_authenticated | not user_has_permission | data_is_valid
 True: user_is_authenticated | user_has_permission | not data_is_valid
 True: user_is_authenticated | user_has_permission | data_is_valid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(user_is_authenticated or (user_has_permission and (if data_is_valid then process_can_continue)))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -171,6 +213,9 @@ True: user_is_authenticated | user_has_permission | not data_is_valid | process_
 True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((if user_is_authenticated then user_has_permission) or (data_is_valid and not process_can_continue))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -188,6 +233,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(if (user_is_authenticated and user_has_permission) then data_is_valid) or (not process_can_continue)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -205,6 +253,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if (user_is_authenticated and (user_has_permission or user_has_permission)) then ((data_is_valid and process_can_continue) → (not system_is_operational)))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
@@ -238,6 +289,9 @@ False: user_is_authenticated | user_has_permission | data_is_valid | not process
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(((if user_is_authenticated then user_has_permission) → data_is_valid) and process_can_continue) or (not (system_is_operational and log_is_enabled))
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
@@ -303,6 +357,9 @@ True: user_is_authenticated | user_has_permission | data_is_valid | process_can_
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (user_is_authenticated and user_has_permission) then (data_is_valid or process_can_continue)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -320,6 +377,9 @@ True: user_is_authenticated | user_has_permission | not data_is_valid | process_
 True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (user_is_authenticated and (user_has_permission or data_is_valid))
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid
 True: not user_is_authenticated | not user_has_permission | data_is_valid
 True: not user_is_authenticated | user_has_permission | not data_is_valid
@@ -329,6 +389,9 @@ False: user_is_authenticated | not user_has_permission | data_is_valid
 False: user_is_authenticated | user_has_permission | not data_is_valid
 False: user_is_authenticated | user_has_permission | data_is_valid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(user_is_authenticated or (user_has_permission and data_is_valid))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid
 False: not user_is_authenticated | not user_has_permission | data_is_valid
 False: not user_is_authenticated | user_has_permission | not data_is_valid
@@ -338,6 +401,9 @@ True: user_is_authenticated | not user_has_permission | data_is_valid
 True: user_is_authenticated | user_has_permission | not data_is_valid
 True: user_is_authenticated | user_has_permission | data_is_valid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((user_is_authenticated or user_has_permission) and data_is_valid) then process_can_continue
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -355,6 +421,9 @@ True: user_is_authenticated | user_has_permission | not data_is_valid | process_
 False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((user_is_authenticated and user_has_permission) or (if data_is_valid then process_can_continue))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -372,6 +441,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if user_is_authenticated then user_has_permission) then data_is_valid
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid
 True: not user_is_authenticated | not user_has_permission | data_is_valid
 False: not user_is_authenticated | user_has_permission | not data_is_valid
@@ -381,6 +453,9 @@ True: user_is_authenticated | not user_has_permission | data_is_valid
 False: user_is_authenticated | user_has_permission | not data_is_valid
 True: user_is_authenticated | user_has_permission | data_is_valid
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if user_is_authenticated then user_has_permission) then ((if user_has_permission then data_is_valid) → process_can_continue)
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -398,6 +473,9 @@ True: user_is_authenticated | user_has_permission | not data_is_valid | process_
 False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if ((user_is_authenticated and user_has_permission) → data_is_valid) then (process_can_continue or system_is_operational))
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
@@ -431,6 +509,9 @@ False: user_is_authenticated | user_has_permission | data_is_valid | not process
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(((if user_is_authenticated then user_has_permission) → data_is_valid) and process_can_continue) or (not system_is_operational)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
@@ -464,6 +545,9 @@ False: user_is_authenticated | user_has_permission | data_is_valid | not process
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(not (user_is_authenticated and user_has_permission)) or ((if data_is_valid then process_can_continue) and system_is_operational)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
@@ -497,6 +581,9 @@ False: user_is_authenticated | user_has_permission | data_is_valid | not process
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((user_is_authenticated or user_has_permission) and (if data_is_valid then process_can_continue)) then (system_is_operational and log_is_enabled)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
@@ -562,6 +649,9 @@ False: user_is_authenticated | user_has_permission | data_is_valid | process_can
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (((user_is_authenticated and user_has_permission) → data_is_valid) or (process_can_continue and system_is_operational))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
@@ -595,6 +685,9 @@ False: user_is_authenticated | user_has_permission | data_is_valid | not process
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(if (if user_is_authenticated then user_has_permission) then data_is_valid) or (not process_can_continue)
+
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
 True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
@@ -612,6 +705,9 @@ False: user_is_authenticated | user_has_permission | not data_is_valid | process
 True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (((user_is_authenticated and (user_has_permission or data_is_valid)) → process_can_continue)) then system_is_operational
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
 True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
@@ -645,6 +741,9 @@ True: user_is_authenticated | user_has_permission | data_is_valid | not process_
 False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
 True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((user_is_authenticated and user_has_permission) → (data_is_valid and (process_can_continue or system_is_operational)))
+
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
 False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational

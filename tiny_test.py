@@ -9,6 +9,7 @@ for naturalRestrictedSentence in natural_restricted_sentences_auth_context:
     sentence_table = get_sentence_table(naturalRestrictedSentence)
 
     print("✅" * 50)
+    print(f"\n{naturalRestrictedSentence}\n")
 
     for sentence_row in sentence_table:
         print(sentence_row)
