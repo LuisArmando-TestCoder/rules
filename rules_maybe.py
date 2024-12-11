@@ -243,13 +243,19 @@ class LogicalLanguageProcessor:
         variables = sorted(variables)
         combinations = list(itertools.product([False, True], repeat=len(variables)))
 
-        print(f"{' | '.join(variables)} | Result")
-        print("-" * (len(variables) * 4 + 9))
+        # print(f"{' | '.join(variables)} | Result")
+        # print("-" * (len(variables) * 4 + 9))
+
+        truth_table = {}
+
         for combo in combinations:
             values = {var: val for var, val in zip(variables, combo)}
             result = self.evaluate_formula(formula, values)
             row = ' | '.join(str(values[var]) for var in variables)
-            print(f"{row} | {result}")
+            truth_table[row] = result
+            # print(f"{row} | {result}")
+        
+        return truth_table
 
     def collect_variables(self, formula, variables):
         if formula[0] == "PRED":

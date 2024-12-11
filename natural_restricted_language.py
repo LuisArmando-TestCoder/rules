@@ -107,7 +107,6 @@ def get_unrestricted(restrictions: List[str], sentence: str) -> List[str]:
     
     return unrestricted_parts
 
-
 def transform_to_logical(sentence):
     normalized_sentence = sentence.lower()
     non_statement = [" ", "(not ", " not ", "not ", " or ", "if (", "if ", " then ", " and ", " → ", "(", ")"]
@@ -115,7 +114,7 @@ def transform_to_logical(sentence):
     tokens = create_function_tokens_dict(filtered_sentence)
     logical = substitute_strings(tokens, sentence)
 
-    return logical
+    return logical, tokens
 
 # logical = transform_to_logical("if (if condition_a then condition_b) then condition_c")
 

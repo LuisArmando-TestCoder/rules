@@ -1,0 +1,679 @@
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission
+True: not user_is_authenticated | user_has_permission
+False: user_is_authenticated | not user_has_permission
+True: user_is_authenticated | user_has_permission
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission
+False: not user_is_authenticated | user_has_permission
+False: user_is_authenticated | not user_has_permission
+True: user_is_authenticated | user_has_permission
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not data_is_invalid
+False: data_is_invalid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid
+False: not user_is_authenticated | not user_has_permission | data_is_valid
+False: not user_is_authenticated | user_has_permission | not data_is_valid
+False: not user_is_authenticated | user_has_permission | data_is_valid
+False: user_is_authenticated | not user_has_permission | not data_is_valid
+True: user_is_authenticated | not user_has_permission | data_is_valid
+True: user_is_authenticated | user_has_permission | not data_is_valid
+True: user_is_authenticated | user_has_permission | data_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission
+True: not user_is_authenticated | user_has_permission
+True: user_is_authenticated | not user_has_permission
+False: user_is_authenticated | user_has_permission
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid
+True: not user_is_authenticated | not user_has_permission | data_is_valid
+True: not user_is_authenticated | user_has_permission | not data_is_valid
+True: not user_is_authenticated | user_has_permission | data_is_valid
+False: user_is_authenticated | not user_has_permission | not data_is_valid
+False: user_is_authenticated | not user_has_permission | data_is_valid
+False: user_is_authenticated | user_has_permission | not data_is_valid
+True: user_is_authenticated | user_has_permission | data_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_invalid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_invalid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_invalid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_invalid | process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_invalid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_invalid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_invalid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_invalid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_invalid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_invalid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_invalid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_invalid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_invalid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_invalid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_invalid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_invalid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_invalid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_invalid | not process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_invalid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_invalid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_invalid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_invalid | not process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_invalid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_invalid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_invalid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_invalid | not process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_invalid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_invalid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_invalid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_invalid | not process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_invalid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_invalid | process_can_continue | system_is_operational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid
+True: not user_is_authenticated | not user_has_permission | data_is_valid
+False: not user_is_authenticated | user_has_permission | not data_is_valid
+True: not user_is_authenticated | user_has_permission | data_is_valid
+True: user_is_authenticated | not user_has_permission | not data_is_valid
+True: user_is_authenticated | not user_has_permission | data_is_valid
+False: user_is_authenticated | user_has_permission | not data_is_valid
+True: user_is_authenticated | user_has_permission | data_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid
+False: not user_is_authenticated | not user_has_permission | data_is_valid
+False: not user_is_authenticated | user_has_permission | not data_is_valid
+False: not user_is_authenticated | user_has_permission | data_is_valid
+True: user_is_authenticated | not user_has_permission | not data_is_valid
+True: user_is_authenticated | not user_has_permission | data_is_valid
+True: user_is_authenticated | user_has_permission | not data_is_valid
+True: user_is_authenticated | user_has_permission | data_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid
+True: not user_is_authenticated | not user_has_permission | data_is_valid
+True: not user_is_authenticated | user_has_permission | not data_is_valid
+True: not user_is_authenticated | user_has_permission | data_is_valid
+True: user_is_authenticated | not user_has_permission | not data_is_valid
+False: user_is_authenticated | not user_has_permission | data_is_valid
+False: user_is_authenticated | user_has_permission | not data_is_valid
+False: user_is_authenticated | user_has_permission | data_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid
+False: not user_is_authenticated | not user_has_permission | data_is_valid
+False: not user_is_authenticated | user_has_permission | not data_is_valid
+True: not user_is_authenticated | user_has_permission | data_is_valid
+True: user_is_authenticated | not user_has_permission | not data_is_valid
+True: user_is_authenticated | not user_has_permission | data_is_valid
+True: user_is_authenticated | user_has_permission | not data_is_valid
+True: user_is_authenticated | user_has_permission | data_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid
+True: not user_is_authenticated | not user_has_permission | data_is_valid
+False: not user_is_authenticated | user_has_permission | not data_is_valid
+True: not user_is_authenticated | user_has_permission | data_is_valid
+True: user_is_authenticated | not user_has_permission | not data_is_valid
+True: user_is_authenticated | not user_has_permission | data_is_valid
+False: user_is_authenticated | user_has_permission | not data_is_valid
+True: user_is_authenticated | user_has_permission | data_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational | log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational | log_is_enabled
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | not log_is_enabled
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational | log_is_enabled
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | not log_is_enabled
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational | log_is_enabled
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: not user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | not user_has_permission | data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | not process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | not system_is_operational
+True: user_is_authenticated | user_has_permission | not data_is_valid | process_can_continue | system_is_operational
+True: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | not process_can_continue | system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | not system_is_operational
+False: user_is_authenticated | user_has_permission | data_is_valid | process_can_continue | system_is_operational
