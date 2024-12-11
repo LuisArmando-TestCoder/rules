@@ -1,11 +1,10 @@
-✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
-if has_pizza then owns_a_unicorn
+if acaba_de_llover then el_suelo_esta_mojado
 
-True: not has_pizza | not owns_a_unicorn
-True: not has_pizza | owns_a_unicorn
-False: has_pizza | not owns_a_unicorn
-True: has_pizza | owns_a_unicorn
+True: not acaba_de_llover | not el_suelo_esta_mojado
+True: not acaba_de_llover | el_suelo_esta_mojado
+False: acaba_de_llover | not el_suelo_esta_mojado
+True: acaba_de_llover | el_suelo_esta_mojado
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
 has_pizza and owns_a_unicorn
