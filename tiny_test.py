@@ -1,9 +1,9 @@
 from natural_restricted_language import transform_to_logical
 from rules_maybe import LogicalLanguageProcessor
-from natural_restricted_sentences import natural_restricted_sentences_auth_context
+from natural_restricted_sentences import natural_restricted_sentences
 from sentence_table import get_sentence_table
 
-for naturalRestrictedSentence in natural_restricted_sentences_auth_context:
+for naturalRestrictedSentence in natural_restricted_sentences:
     processor = LogicalLanguageProcessor()
 
     sentence_table = get_sentence_table(naturalRestrictedSentence)

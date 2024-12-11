@@ -100,3 +100,54 @@ natural_restricted_sentences_auth_context = [
     "if (((user_is_authenticated and (user_has_permission or data_is_valid)) → process_can_continue)) then system_is_operational",
     "not ((user_is_authenticated and user_has_permission) → (data_is_valid and (process_can_continue or system_is_operational)))",
 ]
+
+natural_restricted_sentences = [
+    # Basic sentences
+    "if has_pizza then owns_a_unicorn",
+    "has_pizza and owns_a_unicorn",
+    "not is_sleeping",
+    "(has_pizza and (owns_a_unicorn or is_sleeping))",
+    "not (has_pizza and owns_a_unicorn)",
+    "(not has_pizza) or (owns_a_unicorn and is_sleeping)",
+    "if (has_pizza and owns_a_unicorn) then (is_sleeping or not has_dancing_shoes)",
+    
+    # Deeper nesting
+    "not (has_pizza and (owns_a_unicorn or (is_sleeping and has_dancing_shoes)))",
+    "((not has_pizza) and owns_a_unicorn) or (is_sleeping and (not has_dancing_shoes))",
+    "if ((has_pizza or owns_a_unicorn) and (not is_sleeping)) then (has_dancing_shoes or not can_speak_morse_code)",
+    
+    # Multiple levels of implication
+    "if (if has_pizza then owns_a_unicorn) then (if owns_a_unicorn then is_sleeping)",
+    "not (if (has_pizza and owns_a_unicorn) then (is_sleeping or has_dancing_shoes))",
+    "if (not has_pizza) then (not (owns_a_unicorn or is_sleeping))",
+    
+    # Combining multiple operators
+    "(has_pizza or (owns_a_unicorn and (if is_sleeping then has_dancing_shoes)))",
+    "not ((if has_pizza then owns_a_unicorn) or (is_sleeping and not has_dancing_shoes))",
+    "(if (has_pizza and owns_a_unicorn) then is_sleeping) or (not has_dancing_shoes)",
+    
+    # Extreme nesting
+    "not (if (has_pizza and (owns_a_unicorn or owns_a_unicorn)) then ((is_sleeping and has_dancing_shoes) → (not can_speak_morse_code)))",
+    "(((if has_pizza then owns_a_unicorn) → is_sleeping) and has_dancing_shoes) or (not (can_speak_morse_code and has_flying_cats))",
+    
+    # Moderately Nested Sentences
+    "if (has_pizza and owns_a_unicorn) then (is_sleeping or has_dancing_shoes)",
+    "not (has_pizza and (owns_a_unicorn or is_sleeping))",
+    "(has_pizza or (owns_a_unicorn and is_sleeping))",
+    "if ((has_pizza or owns_a_unicorn) and is_sleeping) then has_dancing_shoes",
+    "not ((has_pizza and owns_a_unicorn) or (if is_sleeping then has_dancing_shoes))",
+    
+    # Deeply Nested Sentences
+    "if (if has_pizza then owns_a_unicorn) then is_sleeping",
+    "if (if has_pizza then owns_a_unicorn) then ((if owns_a_unicorn then is_sleeping) → has_dancing_shoes)",
+    "not (if ((has_pizza and owns_a_unicorn) → is_sleeping) then (has_dancing_shoes or can_speak_morse_code))",
+    "(((if has_pizza then owns_a_unicorn) → is_sleeping) and has_dancing_shoes) or (not can_speak_morse_code)",
+    "(not (has_pizza and owns_a_unicorn)) or ((if is_sleeping then has_dancing_shoes) and can_speak_morse_code)",
+    
+    # Complex Logical Operations
+    "if ((has_pizza or owns_a_unicorn) and (if is_sleeping then has_dancing_shoes)) then (can_speak_morse_code and has_flying_cats)",
+    "not (((has_pizza and owns_a_unicorn) → is_sleeping) or (has_dancing_shoes and can_speak_morse_code))",
+    "(if (if has_pizza then owns_a_unicorn) then is_sleeping) or (not has_dancing_shoes)",
+    "if (((has_pizza and (owns_a_unicorn or is_sleeping)) → has_dancing_shoes)) then can_speak_morse_code",
+    "not ((has_pizza and owns_a_unicorn) → (is_sleeping and (has_dancing_shoes or can_speak_morse_code)))",
+]

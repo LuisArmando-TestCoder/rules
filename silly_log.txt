@@ -1,0 +1,778 @@
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if has_pizza then owns_a_unicorn
+
+True: not has_pizza | not owns_a_unicorn
+True: not has_pizza | owns_a_unicorn
+False: has_pizza | not owns_a_unicorn
+True: has_pizza | owns_a_unicorn
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+has_pizza and owns_a_unicorn
+
+False: not has_pizza | not owns_a_unicorn
+False: not has_pizza | owns_a_unicorn
+False: has_pizza | not owns_a_unicorn
+True: has_pizza | owns_a_unicorn
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not is_sleeping
+
+True: not is_sleeping
+False: is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(has_pizza and (owns_a_unicorn or is_sleeping))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping
+False: not has_pizza | not owns_a_unicorn | is_sleeping
+False: not has_pizza | owns_a_unicorn | not is_sleeping
+False: not has_pizza | owns_a_unicorn | is_sleeping
+False: has_pizza | not owns_a_unicorn | not is_sleeping
+True: has_pizza | not owns_a_unicorn | is_sleeping
+True: has_pizza | owns_a_unicorn | not is_sleeping
+True: has_pizza | owns_a_unicorn | is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (has_pizza and owns_a_unicorn)
+
+True: not has_pizza | not owns_a_unicorn
+True: not has_pizza | owns_a_unicorn
+True: has_pizza | not owns_a_unicorn
+False: has_pizza | owns_a_unicorn
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(not has_pizza) or (owns_a_unicorn and is_sleeping)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping
+True: not has_pizza | not owns_a_unicorn | is_sleeping
+True: not has_pizza | owns_a_unicorn | not is_sleeping
+True: not has_pizza | owns_a_unicorn | is_sleeping
+False: has_pizza | not owns_a_unicorn | not is_sleeping
+False: has_pizza | not owns_a_unicorn | is_sleeping
+False: has_pizza | owns_a_unicorn | not is_sleeping
+True: has_pizza | owns_a_unicorn | is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (has_pizza and owns_a_unicorn) then (is_sleeping or not has_dancing_shoes)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (has_pizza and (owns_a_unicorn or (is_sleeping and has_dancing_shoes)))
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+((not has_pizza) and owns_a_unicorn) or (is_sleeping and (not has_dancing_shoes))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((has_pizza or owns_a_unicorn) and (not is_sleeping)) then (has_dancing_shoes or not can_speak_morse_code)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if has_pizza then owns_a_unicorn) then (if owns_a_unicorn then is_sleeping)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping
+True: not has_pizza | not owns_a_unicorn | is_sleeping
+False: not has_pizza | owns_a_unicorn | not is_sleeping
+True: not has_pizza | owns_a_unicorn | is_sleeping
+True: has_pizza | not owns_a_unicorn | not is_sleeping
+True: has_pizza | not owns_a_unicorn | is_sleeping
+False: has_pizza | owns_a_unicorn | not is_sleeping
+True: has_pizza | owns_a_unicorn | is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if (has_pizza and owns_a_unicorn) then (is_sleeping or has_dancing_shoes))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (not has_pizza) then (not (owns_a_unicorn or is_sleeping))
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping
+False: not has_pizza | not owns_a_unicorn | is_sleeping
+False: not has_pizza | owns_a_unicorn | not is_sleeping
+False: not has_pizza | owns_a_unicorn | is_sleeping
+True: has_pizza | not owns_a_unicorn | not is_sleeping
+True: has_pizza | not owns_a_unicorn | is_sleeping
+True: has_pizza | owns_a_unicorn | not is_sleeping
+True: has_pizza | owns_a_unicorn | is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(has_pizza or (owns_a_unicorn and (if is_sleeping then has_dancing_shoes)))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((if has_pizza then owns_a_unicorn) or (is_sleeping and not has_dancing_shoes))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(if (has_pizza and owns_a_unicorn) then is_sleeping) or (not has_dancing_shoes)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if (has_pizza and (owns_a_unicorn or owns_a_unicorn)) then ((is_sleeping and has_dancing_shoes) → (not can_speak_morse_code)))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(((if has_pizza then owns_a_unicorn) → is_sleeping) and has_dancing_shoes) or (not (can_speak_morse_code and has_flying_cats))
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (has_pizza and owns_a_unicorn) then (is_sleeping or has_dancing_shoes)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (has_pizza and (owns_a_unicorn or is_sleeping))
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping
+True: not has_pizza | not owns_a_unicorn | is_sleeping
+True: not has_pizza | owns_a_unicorn | not is_sleeping
+True: not has_pizza | owns_a_unicorn | is_sleeping
+True: has_pizza | not owns_a_unicorn | not is_sleeping
+False: has_pizza | not owns_a_unicorn | is_sleeping
+False: has_pizza | owns_a_unicorn | not is_sleeping
+False: has_pizza | owns_a_unicorn | is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(has_pizza or (owns_a_unicorn and is_sleeping))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping
+False: not has_pizza | not owns_a_unicorn | is_sleeping
+False: not has_pizza | owns_a_unicorn | not is_sleeping
+True: not has_pizza | owns_a_unicorn | is_sleeping
+True: has_pizza | not owns_a_unicorn | not is_sleeping
+True: has_pizza | not owns_a_unicorn | is_sleeping
+True: has_pizza | owns_a_unicorn | not is_sleeping
+True: has_pizza | owns_a_unicorn | is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((has_pizza or owns_a_unicorn) and is_sleeping) then has_dancing_shoes
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((has_pizza and owns_a_unicorn) or (if is_sleeping then has_dancing_shoes))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if has_pizza then owns_a_unicorn) then is_sleeping
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping
+True: not has_pizza | not owns_a_unicorn | is_sleeping
+False: not has_pizza | owns_a_unicorn | not is_sleeping
+True: not has_pizza | owns_a_unicorn | is_sleeping
+True: has_pizza | not owns_a_unicorn | not is_sleeping
+True: has_pizza | not owns_a_unicorn | is_sleeping
+False: has_pizza | owns_a_unicorn | not is_sleeping
+True: has_pizza | owns_a_unicorn | is_sleeping
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if has_pizza then owns_a_unicorn) then ((if owns_a_unicorn then is_sleeping) → has_dancing_shoes)
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if ((has_pizza and owns_a_unicorn) → is_sleeping) then (has_dancing_shoes or can_speak_morse_code))
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(((if has_pizza then owns_a_unicorn) → is_sleeping) and has_dancing_shoes) or (not can_speak_morse_code)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(not (has_pizza and owns_a_unicorn)) or ((if is_sleeping then has_dancing_shoes) and can_speak_morse_code)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((has_pizza or owns_a_unicorn) and (if is_sleeping then has_dancing_shoes)) then (can_speak_morse_code and has_flying_cats)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code | has_flying_cats
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | not has_flying_cats
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code | has_flying_cats
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | not has_flying_cats
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code | has_flying_cats
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (((has_pizza and owns_a_unicorn) → is_sleeping) or (has_dancing_shoes and can_speak_morse_code))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(if (if has_pizza then owns_a_unicorn) then is_sleeping) or (not has_dancing_shoes)
+
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (((has_pizza and (owns_a_unicorn or is_sleeping)) → has_dancing_shoes)) then can_speak_morse_code
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((has_pizza and owns_a_unicorn) → (is_sleeping and (has_dancing_shoes or can_speak_morse_code)))
+
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: not has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | not owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | not has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | not can_speak_morse_code
+True: has_pizza | owns_a_unicorn | not is_sleeping | has_dancing_shoes | can_speak_morse_code
+True: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | not has_dancing_shoes | can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | not can_speak_morse_code
+False: has_pizza | owns_a_unicorn | is_sleeping | has_dancing_shoes | can_speak_morse_code
