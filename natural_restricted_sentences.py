@@ -101,9 +101,9 @@ natural_restricted_sentences_auth_context = [
     "not ((user_is_authenticated and user_has_permission) → (data_is_valid and (process_can_continue or system_is_operational)))",
 ]
 
-natural_restricted_sentences = [
+cute_natural_restricted_sentences = [
     # Basic sentences
-    "if has_pizza then owns_a_unicorn",
+    "if acaba_de_llover then el_suelo_esta_mojado",
     "has_pizza and owns_a_unicorn",
     "not is_sleeping",
     "(has_pizza and (owns_a_unicorn or is_sleeping))",
