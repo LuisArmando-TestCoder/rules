@@ -1,0 +1,810 @@
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if free_will_exists then determinism_is_false
+
+True: not free_will_exists | not determinism_is_false
+True: not free_will_exists | determinism_is_false
+False: free_will_exists | not determinism_is_false
+True: free_will_exists | determinism_is_false
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+consciousness_is_fundamental and materialism_is_incomplete
+
+False: not consciousness_is_fundamental | not materialism_is_incomplete
+False: not consciousness_is_fundamental | materialism_is_incomplete
+False: consciousness_is_fundamental | not materialism_is_incomplete
+True: consciousness_is_fundamental | materialism_is_incomplete
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not morality_is_absolute
+
+True: not morality_is_absolute
+False: morality_is_absolute
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(universe_is_finite and (time_is_cyclic or reality_is_simulation))
+
+False: not universe_is_finite | not time_is_cyclic | not reality_is_simulation
+False: not universe_is_finite | not time_is_cyclic | reality_is_simulation
+False: not universe_is_finite | time_is_cyclic | not reality_is_simulation
+False: not universe_is_finite | time_is_cyclic | reality_is_simulation
+False: universe_is_finite | not time_is_cyclic | not reality_is_simulation
+True: universe_is_finite | not time_is_cyclic | reality_is_simulation
+True: universe_is_finite | time_is_cyclic | not reality_is_simulation
+True: universe_is_finite | time_is_cyclic | reality_is_simulation
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (ai_can_experience_emotions and ai_can_have_rights)
+
+True: not ai_can_experience_emotions | not ai_can_have_rights
+True: not ai_can_experience_emotions | ai_can_have_rights
+True: ai_can_experience_emotions | not ai_can_have_rights
+False: ai_can_experience_emotions | ai_can_have_rights
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(not multiverse_exists) or (quantum_entanglement_explains_free_will and objective_reality_is_illusory)
+
+True: not multiverse_exists | not quantum_entanglement_explains_free_will | not objective_reality_is_illusory
+True: not multiverse_exists | not quantum_entanglement_explains_free_will | objective_reality_is_illusory
+True: not multiverse_exists | quantum_entanglement_explains_free_will | not objective_reality_is_illusory
+True: not multiverse_exists | quantum_entanglement_explains_free_will | objective_reality_is_illusory
+False: multiverse_exists | not quantum_entanglement_explains_free_will | not objective_reality_is_illusory
+False: multiverse_exists | not quantum_entanglement_explains_free_will | objective_reality_is_illusory
+False: multiverse_exists | quantum_entanglement_explains_free_will | not objective_reality_is_illusory
+True: multiverse_exists | quantum_entanglement_explains_free_will | objective_reality_is_illusory
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (ethics_are_relative and moral_realism_is_false) then (societal_progress_is_meaningless or not altruism_is_rational)
+
+True: not ethics_are_relative | not moral_realism_is_false | not societal_progress_is_meaningless | not altruism_is_rational
+True: not ethics_are_relative | not moral_realism_is_false | not societal_progress_is_meaningless | altruism_is_rational
+True: not ethics_are_relative | not moral_realism_is_false | societal_progress_is_meaningless | not altruism_is_rational
+True: not ethics_are_relative | not moral_realism_is_false | societal_progress_is_meaningless | altruism_is_rational
+True: not ethics_are_relative | moral_realism_is_false | not societal_progress_is_meaningless | not altruism_is_rational
+True: not ethics_are_relative | moral_realism_is_false | not societal_progress_is_meaningless | altruism_is_rational
+True: not ethics_are_relative | moral_realism_is_false | societal_progress_is_meaningless | not altruism_is_rational
+True: not ethics_are_relative | moral_realism_is_false | societal_progress_is_meaningless | altruism_is_rational
+True: ethics_are_relative | not moral_realism_is_false | not societal_progress_is_meaningless | not altruism_is_rational
+True: ethics_are_relative | not moral_realism_is_false | not societal_progress_is_meaningless | altruism_is_rational
+True: ethics_are_relative | not moral_realism_is_false | societal_progress_is_meaningless | not altruism_is_rational
+True: ethics_are_relative | not moral_realism_is_false | societal_progress_is_meaningless | altruism_is_rational
+True: ethics_are_relative | moral_realism_is_false | not societal_progress_is_meaningless | not altruism_is_rational
+False: ethics_are_relative | moral_realism_is_false | not societal_progress_is_meaningless | altruism_is_rational
+True: ethics_are_relative | moral_realism_is_false | societal_progress_is_meaningless | not altruism_is_rational
+True: ethics_are_relative | moral_realism_is_false | societal_progress_is_meaningless | altruism_is_rational
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (human_cognition_is_limited and (philosophy_can_prove_truth or (science_can_explain_existence and religion_is_valid)))
+
+True: not human_cognition_is_limited | not philosophy_can_prove_truth | not science_can_explain_existence | not religion_is_valid
+True: not human_cognition_is_limited | not philosophy_can_prove_truth | not science_can_explain_existence | religion_is_valid
+True: not human_cognition_is_limited | not philosophy_can_prove_truth | science_can_explain_existence | not religion_is_valid
+True: not human_cognition_is_limited | not philosophy_can_prove_truth | science_can_explain_existence | religion_is_valid
+True: not human_cognition_is_limited | philosophy_can_prove_truth | not science_can_explain_existence | not religion_is_valid
+True: not human_cognition_is_limited | philosophy_can_prove_truth | not science_can_explain_existence | religion_is_valid
+True: not human_cognition_is_limited | philosophy_can_prove_truth | science_can_explain_existence | not religion_is_valid
+True: not human_cognition_is_limited | philosophy_can_prove_truth | science_can_explain_existence | religion_is_valid
+True: human_cognition_is_limited | not philosophy_can_prove_truth | not science_can_explain_existence | not religion_is_valid
+True: human_cognition_is_limited | not philosophy_can_prove_truth | not science_can_explain_existence | religion_is_valid
+True: human_cognition_is_limited | not philosophy_can_prove_truth | science_can_explain_existence | not religion_is_valid
+False: human_cognition_is_limited | not philosophy_can_prove_truth | science_can_explain_existence | religion_is_valid
+False: human_cognition_is_limited | philosophy_can_prove_truth | not science_can_explain_existence | not religion_is_valid
+False: human_cognition_is_limited | philosophy_can_prove_truth | not science_can_explain_existence | religion_is_valid
+False: human_cognition_is_limited | philosophy_can_prove_truth | science_can_explain_existence | not religion_is_valid
+False: human_cognition_is_limited | philosophy_can_prove_truth | science_can_explain_existence | religion_is_valid
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+((not free_markets_are_optimal) and socialism_is_practical) or (capitalism_is_sustainable and (not democracy_is_perfect))
+
+False: not free_markets_are_optimal | not socialism_is_practical | not capitalism_is_sustainable | not democracy_is_perfect
+False: not free_markets_are_optimal | not socialism_is_practical | not capitalism_is_sustainable | democracy_is_perfect
+True: not free_markets_are_optimal | not socialism_is_practical | capitalism_is_sustainable | not democracy_is_perfect
+False: not free_markets_are_optimal | not socialism_is_practical | capitalism_is_sustainable | democracy_is_perfect
+True: not free_markets_are_optimal | socialism_is_practical | not capitalism_is_sustainable | not democracy_is_perfect
+True: not free_markets_are_optimal | socialism_is_practical | not capitalism_is_sustainable | democracy_is_perfect
+True: not free_markets_are_optimal | socialism_is_practical | capitalism_is_sustainable | not democracy_is_perfect
+True: not free_markets_are_optimal | socialism_is_practical | capitalism_is_sustainable | democracy_is_perfect
+False: free_markets_are_optimal | not socialism_is_practical | not capitalism_is_sustainable | not democracy_is_perfect
+False: free_markets_are_optimal | not socialism_is_practical | not capitalism_is_sustainable | democracy_is_perfect
+True: free_markets_are_optimal | not socialism_is_practical | capitalism_is_sustainable | not democracy_is_perfect
+False: free_markets_are_optimal | not socialism_is_practical | capitalism_is_sustainable | democracy_is_perfect
+False: free_markets_are_optimal | socialism_is_practical | not capitalism_is_sustainable | not democracy_is_perfect
+False: free_markets_are_optimal | socialism_is_practical | not capitalism_is_sustainable | democracy_is_perfect
+True: free_markets_are_optimal | socialism_is_practical | capitalism_is_sustainable | not democracy_is_perfect
+False: free_markets_are_optimal | socialism_is_practical | capitalism_is_sustainable | democracy_is_perfect
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((infinity_is_real or numbers_are_inventions) and (not mathematics_describes_reality)) then (the_universe_is_ordered or not chaos_is_fundamental)
+
+True: not infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+True: not infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: not infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: not infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+True: not infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+True: not infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: not infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: not infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+True: not infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+False: not infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: not infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: not infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+True: not infinity_is_real | numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+True: not infinity_is_real | numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: not infinity_is_real | numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: not infinity_is_real | numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+False: infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: infinity_is_real | not numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+True: infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: infinity_is_real | not numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+False: infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: infinity_is_real | numbers_are_inventions | not mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | not chaos_is_fundamental
+True: infinity_is_real | numbers_are_inventions | mathematics_describes_reality | not the_universe_is_ordered | chaos_is_fundamental
+True: infinity_is_real | numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | not chaos_is_fundamental
+True: infinity_is_real | numbers_are_inventions | mathematics_describes_reality | the_universe_is_ordered | chaos_is_fundamental
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if morality_is_subjective then universal_ethics_are_impossible) then (if universal_ethics_are_impossible then global_cooperation_is_unachievable)
+
+True: not morality_is_subjective | not universal_ethics_are_impossible | not global_cooperation_is_unachievable
+True: not morality_is_subjective | not universal_ethics_are_impossible | global_cooperation_is_unachievable
+False: not morality_is_subjective | universal_ethics_are_impossible | not global_cooperation_is_unachievable
+True: not morality_is_subjective | universal_ethics_are_impossible | global_cooperation_is_unachievable
+True: morality_is_subjective | not universal_ethics_are_impossible | not global_cooperation_is_unachievable
+True: morality_is_subjective | not universal_ethics_are_impossible | global_cooperation_is_unachievable
+False: morality_is_subjective | universal_ethics_are_impossible | not global_cooperation_is_unachievable
+True: morality_is_subjective | universal_ethics_are_impossible | global_cooperation_is_unachievable
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if (consciousness_is_a_computation and humans_are_machines) then (free_will_is_an_illusion or identity_is_illusory))
+
+False: not consciousness_is_a_computation | not humans_are_machines | not free_will_is_an_illusion | not identity_is_illusory
+False: not consciousness_is_a_computation | not humans_are_machines | not free_will_is_an_illusion | identity_is_illusory
+False: not consciousness_is_a_computation | not humans_are_machines | free_will_is_an_illusion | not identity_is_illusory
+False: not consciousness_is_a_computation | not humans_are_machines | free_will_is_an_illusion | identity_is_illusory
+False: not consciousness_is_a_computation | humans_are_machines | not free_will_is_an_illusion | not identity_is_illusory
+False: not consciousness_is_a_computation | humans_are_machines | not free_will_is_an_illusion | identity_is_illusory
+False: not consciousness_is_a_computation | humans_are_machines | free_will_is_an_illusion | not identity_is_illusory
+False: not consciousness_is_a_computation | humans_are_machines | free_will_is_an_illusion | identity_is_illusory
+False: consciousness_is_a_computation | not humans_are_machines | not free_will_is_an_illusion | not identity_is_illusory
+False: consciousness_is_a_computation | not humans_are_machines | not free_will_is_an_illusion | identity_is_illusory
+False: consciousness_is_a_computation | not humans_are_machines | free_will_is_an_illusion | not identity_is_illusory
+False: consciousness_is_a_computation | not humans_are_machines | free_will_is_an_illusion | identity_is_illusory
+True: consciousness_is_a_computation | humans_are_machines | not free_will_is_an_illusion | not identity_is_illusory
+False: consciousness_is_a_computation | humans_are_machines | not free_will_is_an_illusion | identity_is_illusory
+False: consciousness_is_a_computation | humans_are_machines | free_will_is_an_illusion | not identity_is_illusory
+False: consciousness_is_a_computation | humans_are_machines | free_will_is_an_illusion | identity_is_illusory
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (not the_universe_has_a_purpose) then (not (life_has_intrinsic_meaning or nihilism_is_correct))
+
+True: not the_universe_has_a_purpose | not life_has_intrinsic_meaning | not nihilism_is_correct
+False: not the_universe_has_a_purpose | not life_has_intrinsic_meaning | nihilism_is_correct
+False: not the_universe_has_a_purpose | life_has_intrinsic_meaning | not nihilism_is_correct
+False: not the_universe_has_a_purpose | life_has_intrinsic_meaning | nihilism_is_correct
+True: the_universe_has_a_purpose | not life_has_intrinsic_meaning | not nihilism_is_correct
+True: the_universe_has_a_purpose | not life_has_intrinsic_meaning | nihilism_is_correct
+True: the_universe_has_a_purpose | life_has_intrinsic_meaning | not nihilism_is_correct
+True: the_universe_has_a_purpose | life_has_intrinsic_meaning | nihilism_is_correct
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(truth_is_objective or (knowledge_is_contextual and (if reality_is_objective then human_perception_is_flawed)))
+
+False: not truth_is_objective | not knowledge_is_contextual | not reality_is_objective | not human_perception_is_flawed
+False: not truth_is_objective | not knowledge_is_contextual | not reality_is_objective | human_perception_is_flawed
+False: not truth_is_objective | not knowledge_is_contextual | reality_is_objective | not human_perception_is_flawed
+False: not truth_is_objective | not knowledge_is_contextual | reality_is_objective | human_perception_is_flawed
+True: not truth_is_objective | knowledge_is_contextual | not reality_is_objective | not human_perception_is_flawed
+True: not truth_is_objective | knowledge_is_contextual | not reality_is_objective | human_perception_is_flawed
+False: not truth_is_objective | knowledge_is_contextual | reality_is_objective | not human_perception_is_flawed
+True: not truth_is_objective | knowledge_is_contextual | reality_is_objective | human_perception_is_flawed
+True: truth_is_objective | not knowledge_is_contextual | not reality_is_objective | not human_perception_is_flawed
+True: truth_is_objective | not knowledge_is_contextual | not reality_is_objective | human_perception_is_flawed
+True: truth_is_objective | not knowledge_is_contextual | reality_is_objective | not human_perception_is_flawed
+True: truth_is_objective | not knowledge_is_contextual | reality_is_objective | human_perception_is_flawed
+True: truth_is_objective | knowledge_is_contextual | not reality_is_objective | not human_perception_is_flawed
+True: truth_is_objective | knowledge_is_contextual | not reality_is_objective | human_perception_is_flawed
+True: truth_is_objective | knowledge_is_contextual | reality_is_objective | not human_perception_is_flawed
+True: truth_is_objective | knowledge_is_contextual | reality_is_objective | human_perception_is_flawed
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((if technology_can_solve_ethics then humanity_will_transcend) or (artificial_superintelligence_is_safe and not posthumanism_is_inevitable))
+
+False: not technology_can_solve_ethics | not humanity_will_transcend | not artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+False: not technology_can_solve_ethics | not humanity_will_transcend | not artificial_superintelligence_is_safe | posthumanism_is_inevitable
+False: not technology_can_solve_ethics | not humanity_will_transcend | artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+False: not technology_can_solve_ethics | not humanity_will_transcend | artificial_superintelligence_is_safe | posthumanism_is_inevitable
+False: not technology_can_solve_ethics | humanity_will_transcend | not artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+False: not technology_can_solve_ethics | humanity_will_transcend | not artificial_superintelligence_is_safe | posthumanism_is_inevitable
+False: not technology_can_solve_ethics | humanity_will_transcend | artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+False: not technology_can_solve_ethics | humanity_will_transcend | artificial_superintelligence_is_safe | posthumanism_is_inevitable
+True: technology_can_solve_ethics | not humanity_will_transcend | not artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+True: technology_can_solve_ethics | not humanity_will_transcend | not artificial_superintelligence_is_safe | posthumanism_is_inevitable
+False: technology_can_solve_ethics | not humanity_will_transcend | artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+True: technology_can_solve_ethics | not humanity_will_transcend | artificial_superintelligence_is_safe | posthumanism_is_inevitable
+False: technology_can_solve_ethics | humanity_will_transcend | not artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+False: technology_can_solve_ethics | humanity_will_transcend | not artificial_superintelligence_is_safe | posthumanism_is_inevitable
+False: technology_can_solve_ethics | humanity_will_transcend | artificial_superintelligence_is_safe | not posthumanism_is_inevitable
+False: technology_can_solve_ethics | humanity_will_transcend | artificial_superintelligence_is_safe | posthumanism_is_inevitable
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(if (existence_is_pain and suffering_is_unavoidable) then morality_is_pointless) or (not utilitarianism_is_correct)
+
+True: not existence_is_pain | not suffering_is_unavoidable | not morality_is_pointless | not utilitarianism_is_correct
+True: not existence_is_pain | not suffering_is_unavoidable | not morality_is_pointless | utilitarianism_is_correct
+True: not existence_is_pain | not suffering_is_unavoidable | morality_is_pointless | not utilitarianism_is_correct
+True: not existence_is_pain | not suffering_is_unavoidable | morality_is_pointless | utilitarianism_is_correct
+True: not existence_is_pain | suffering_is_unavoidable | not morality_is_pointless | not utilitarianism_is_correct
+True: not existence_is_pain | suffering_is_unavoidable | not morality_is_pointless | utilitarianism_is_correct
+True: not existence_is_pain | suffering_is_unavoidable | morality_is_pointless | not utilitarianism_is_correct
+True: not existence_is_pain | suffering_is_unavoidable | morality_is_pointless | utilitarianism_is_correct
+True: existence_is_pain | not suffering_is_unavoidable | not morality_is_pointless | not utilitarianism_is_correct
+True: existence_is_pain | not suffering_is_unavoidable | not morality_is_pointless | utilitarianism_is_correct
+True: existence_is_pain | not suffering_is_unavoidable | morality_is_pointless | not utilitarianism_is_correct
+True: existence_is_pain | not suffering_is_unavoidable | morality_is_pointless | utilitarianism_is_correct
+True: existence_is_pain | suffering_is_unavoidable | not morality_is_pointless | not utilitarianism_is_correct
+False: existence_is_pain | suffering_is_unavoidable | not morality_is_pointless | utilitarianism_is_correct
+True: existence_is_pain | suffering_is_unavoidable | morality_is_pointless | not utilitarianism_is_correct
+True: existence_is_pain | suffering_is_unavoidable | morality_is_pointless | utilitarianism_is_correct
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if (the_universe_is_finite and (time_is_discrete or time_is_continuous)) then ((consciousness_is_immaterial and morality_is_universal) → (not free_will_is_real)))
+
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: not the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+True: the_universe_is_finite | not time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | time_is_discrete | not time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+True: the_universe_is_finite | time_is_discrete | not time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | time_is_discrete | time_is_continuous | not consciousness_is_immaterial | morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | not free_will_is_real
+False: the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | not morality_is_universal | free_will_is_real
+False: the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | not free_will_is_real
+True: the_universe_is_finite | time_is_discrete | time_is_continuous | consciousness_is_immaterial | morality_is_universal | free_will_is_real
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(((if god_exists then evil_is_unexplainable) → morality_is_subjective) and reality_is_incomprehensible) or (not (truth_is_knowable and logic_is_consistent))
+
+True: not god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: not god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: not god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: not god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+True: not god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: not god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: not god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: not god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: not god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: not god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+True: not god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: god_exists | not evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+True: god_exists | not evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: god_exists | not evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+True: god_exists | not evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: god_exists | evil_is_unexplainable | not morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: god_exists | evil_is_unexplainable | not morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+False: god_exists | evil_is_unexplainable | morality_is_subjective | not reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | not logic_is_consistent
+True: god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | not truth_is_knowable | logic_is_consistent
+True: god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | not logic_is_consistent
+True: god_exists | evil_is_unexplainable | morality_is_subjective | reality_is_incomprehensible | truth_is_knowable | logic_is_consistent
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (humans_are_biological_machines and consciousness_emerges_from_matter) then (identity_is_an_illusion or self_awareness_is_a_fluke)
+
+True: not humans_are_biological_machines | not consciousness_emerges_from_matter | not identity_is_an_illusion | not self_awareness_is_a_fluke
+True: not humans_are_biological_machines | not consciousness_emerges_from_matter | not identity_is_an_illusion | self_awareness_is_a_fluke
+True: not humans_are_biological_machines | not consciousness_emerges_from_matter | identity_is_an_illusion | not self_awareness_is_a_fluke
+True: not humans_are_biological_machines | not consciousness_emerges_from_matter | identity_is_an_illusion | self_awareness_is_a_fluke
+True: not humans_are_biological_machines | consciousness_emerges_from_matter | not identity_is_an_illusion | not self_awareness_is_a_fluke
+True: not humans_are_biological_machines | consciousness_emerges_from_matter | not identity_is_an_illusion | self_awareness_is_a_fluke
+True: not humans_are_biological_machines | consciousness_emerges_from_matter | identity_is_an_illusion | not self_awareness_is_a_fluke
+True: not humans_are_biological_machines | consciousness_emerges_from_matter | identity_is_an_illusion | self_awareness_is_a_fluke
+True: humans_are_biological_machines | not consciousness_emerges_from_matter | not identity_is_an_illusion | not self_awareness_is_a_fluke
+True: humans_are_biological_machines | not consciousness_emerges_from_matter | not identity_is_an_illusion | self_awareness_is_a_fluke
+True: humans_are_biological_machines | not consciousness_emerges_from_matter | identity_is_an_illusion | not self_awareness_is_a_fluke
+True: humans_are_biological_machines | not consciousness_emerges_from_matter | identity_is_an_illusion | self_awareness_is_a_fluke
+False: humans_are_biological_machines | consciousness_emerges_from_matter | not identity_is_an_illusion | not self_awareness_is_a_fluke
+True: humans_are_biological_machines | consciousness_emerges_from_matter | not identity_is_an_illusion | self_awareness_is_a_fluke
+True: humans_are_biological_machines | consciousness_emerges_from_matter | identity_is_an_illusion | not self_awareness_is_a_fluke
+True: humans_are_biological_machines | consciousness_emerges_from_matter | identity_is_an_illusion | self_awareness_is_a_fluke
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (reality_is_simulation and (existence_is_illusory or reality_is_objective))
+
+True: not reality_is_simulation | not existence_is_illusory | not reality_is_objective
+True: not reality_is_simulation | not existence_is_illusory | reality_is_objective
+True: not reality_is_simulation | existence_is_illusory | not reality_is_objective
+True: not reality_is_simulation | existence_is_illusory | reality_is_objective
+True: reality_is_simulation | not existence_is_illusory | not reality_is_objective
+False: reality_is_simulation | not existence_is_illusory | reality_is_objective
+False: reality_is_simulation | existence_is_illusory | not reality_is_objective
+False: reality_is_simulation | existence_is_illusory | reality_is_objective
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(free_will_exists or (determinism_is_true and consciousness_is_illusionary))
+
+False: not free_will_exists | not determinism_is_true | not consciousness_is_illusionary
+False: not free_will_exists | not determinism_is_true | consciousness_is_illusionary
+False: not free_will_exists | determinism_is_true | not consciousness_is_illusionary
+True: not free_will_exists | determinism_is_true | consciousness_is_illusionary
+True: free_will_exists | not determinism_is_true | not consciousness_is_illusionary
+True: free_will_exists | not determinism_is_true | consciousness_is_illusionary
+True: free_will_exists | determinism_is_true | not consciousness_is_illusionary
+True: free_will_exists | determinism_is_true | consciousness_is_illusionary
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((knowledge_is_power or truth_is_subjective) and morality_is_cultural) then progress_is_relative
+
+True: not knowledge_is_power | not truth_is_subjective | not morality_is_cultural | not progress_is_relative
+True: not knowledge_is_power | not truth_is_subjective | not morality_is_cultural | progress_is_relative
+True: not knowledge_is_power | not truth_is_subjective | morality_is_cultural | not progress_is_relative
+True: not knowledge_is_power | not truth_is_subjective | morality_is_cultural | progress_is_relative
+True: not knowledge_is_power | truth_is_subjective | not morality_is_cultural | not progress_is_relative
+True: not knowledge_is_power | truth_is_subjective | not morality_is_cultural | progress_is_relative
+False: not knowledge_is_power | truth_is_subjective | morality_is_cultural | not progress_is_relative
+True: not knowledge_is_power | truth_is_subjective | morality_is_cultural | progress_is_relative
+True: knowledge_is_power | not truth_is_subjective | not morality_is_cultural | not progress_is_relative
+True: knowledge_is_power | not truth_is_subjective | not morality_is_cultural | progress_is_relative
+False: knowledge_is_power | not truth_is_subjective | morality_is_cultural | not progress_is_relative
+True: knowledge_is_power | not truth_is_subjective | morality_is_cultural | progress_is_relative
+True: knowledge_is_power | truth_is_subjective | not morality_is_cultural | not progress_is_relative
+True: knowledge_is_power | truth_is_subjective | not morality_is_cultural | progress_is_relative
+False: knowledge_is_power | truth_is_subjective | morality_is_cultural | not progress_is_relative
+True: knowledge_is_power | truth_is_subjective | morality_is_cultural | progress_is_relative
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((reality_is_an_emergent_property and truth_is_flexible) or (if morality_is_situational then ethics_are_mutable))
+
+False: not reality_is_an_emergent_property | not truth_is_flexible | not morality_is_situational | not ethics_are_mutable
+False: not reality_is_an_emergent_property | not truth_is_flexible | not morality_is_situational | ethics_are_mutable
+True: not reality_is_an_emergent_property | not truth_is_flexible | morality_is_situational | not ethics_are_mutable
+False: not reality_is_an_emergent_property | not truth_is_flexible | morality_is_situational | ethics_are_mutable
+False: not reality_is_an_emergent_property | truth_is_flexible | not morality_is_situational | not ethics_are_mutable
+False: not reality_is_an_emergent_property | truth_is_flexible | not morality_is_situational | ethics_are_mutable
+True: not reality_is_an_emergent_property | truth_is_flexible | morality_is_situational | not ethics_are_mutable
+False: not reality_is_an_emergent_property | truth_is_flexible | morality_is_situational | ethics_are_mutable
+False: reality_is_an_emergent_property | not truth_is_flexible | not morality_is_situational | not ethics_are_mutable
+False: reality_is_an_emergent_property | not truth_is_flexible | not morality_is_situational | ethics_are_mutable
+True: reality_is_an_emergent_property | not truth_is_flexible | morality_is_situational | not ethics_are_mutable
+False: reality_is_an_emergent_property | not truth_is_flexible | morality_is_situational | ethics_are_mutable
+False: reality_is_an_emergent_property | truth_is_flexible | not morality_is_situational | not ethics_are_mutable
+False: reality_is_an_emergent_property | truth_is_flexible | not morality_is_situational | ethics_are_mutable
+False: reality_is_an_emergent_property | truth_is_flexible | morality_is_situational | not ethics_are_mutable
+False: reality_is_an_emergent_property | truth_is_flexible | morality_is_situational | ethics_are_mutable
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if consciousness_is_quantum then free_will_is_possible) then identity_is_non_material
+
+False: not consciousness_is_quantum | not free_will_is_possible | not identity_is_non_material
+True: not consciousness_is_quantum | not free_will_is_possible | identity_is_non_material
+False: not consciousness_is_quantum | free_will_is_possible | not identity_is_non_material
+True: not consciousness_is_quantum | free_will_is_possible | identity_is_non_material
+True: consciousness_is_quantum | not free_will_is_possible | not identity_is_non_material
+True: consciousness_is_quantum | not free_will_is_possible | identity_is_non_material
+False: consciousness_is_quantum | free_will_is_possible | not identity_is_non_material
+True: consciousness_is_quantum | free_will_is_possible | identity_is_non_material
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (if humanity_is_insignificant then meaning_is_relative) then ((if meaning_is_relative then progress_is_arbitrary) → cooperation_is_futile)
+
+False: not humanity_is_insignificant | not meaning_is_relative | not progress_is_arbitrary | not cooperation_is_futile
+True: not humanity_is_insignificant | not meaning_is_relative | not progress_is_arbitrary | cooperation_is_futile
+False: not humanity_is_insignificant | not meaning_is_relative | progress_is_arbitrary | not cooperation_is_futile
+True: not humanity_is_insignificant | not meaning_is_relative | progress_is_arbitrary | cooperation_is_futile
+True: not humanity_is_insignificant | meaning_is_relative | not progress_is_arbitrary | not cooperation_is_futile
+True: not humanity_is_insignificant | meaning_is_relative | not progress_is_arbitrary | cooperation_is_futile
+False: not humanity_is_insignificant | meaning_is_relative | progress_is_arbitrary | not cooperation_is_futile
+True: not humanity_is_insignificant | meaning_is_relative | progress_is_arbitrary | cooperation_is_futile
+True: humanity_is_insignificant | not meaning_is_relative | not progress_is_arbitrary | not cooperation_is_futile
+True: humanity_is_insignificant | not meaning_is_relative | not progress_is_arbitrary | cooperation_is_futile
+True: humanity_is_insignificant | not meaning_is_relative | progress_is_arbitrary | not cooperation_is_futile
+True: humanity_is_insignificant | not meaning_is_relative | progress_is_arbitrary | cooperation_is_futile
+True: humanity_is_insignificant | meaning_is_relative | not progress_is_arbitrary | not cooperation_is_futile
+True: humanity_is_insignificant | meaning_is_relative | not progress_is_arbitrary | cooperation_is_futile
+False: humanity_is_insignificant | meaning_is_relative | progress_is_arbitrary | not cooperation_is_futile
+True: humanity_is_insignificant | meaning_is_relative | progress_is_arbitrary | cooperation_is_futile
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (if ((truth_is_discovered and reality_is_objective) → free_will_is_real) then (morality_is_illusion or truth_is_relative))
+
+True: not truth_is_discovered | not reality_is_objective | not free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | not reality_is_objective | not free_will_is_real | not morality_is_illusion | truth_is_relative
+False: not truth_is_discovered | not reality_is_objective | not free_will_is_real | morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | not reality_is_objective | not free_will_is_real | morality_is_illusion | truth_is_relative
+True: not truth_is_discovered | not reality_is_objective | free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | not reality_is_objective | free_will_is_real | not morality_is_illusion | truth_is_relative
+False: not truth_is_discovered | not reality_is_objective | free_will_is_real | morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | not reality_is_objective | free_will_is_real | morality_is_illusion | truth_is_relative
+True: not truth_is_discovered | reality_is_objective | not free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | reality_is_objective | not free_will_is_real | not morality_is_illusion | truth_is_relative
+False: not truth_is_discovered | reality_is_objective | not free_will_is_real | morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | reality_is_objective | not free_will_is_real | morality_is_illusion | truth_is_relative
+True: not truth_is_discovered | reality_is_objective | free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | reality_is_objective | free_will_is_real | not morality_is_illusion | truth_is_relative
+False: not truth_is_discovered | reality_is_objective | free_will_is_real | morality_is_illusion | not truth_is_relative
+False: not truth_is_discovered | reality_is_objective | free_will_is_real | morality_is_illusion | truth_is_relative
+True: truth_is_discovered | not reality_is_objective | not free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | not reality_is_objective | not free_will_is_real | not morality_is_illusion | truth_is_relative
+False: truth_is_discovered | not reality_is_objective | not free_will_is_real | morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | not reality_is_objective | not free_will_is_real | morality_is_illusion | truth_is_relative
+True: truth_is_discovered | not reality_is_objective | free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | not reality_is_objective | free_will_is_real | not morality_is_illusion | truth_is_relative
+False: truth_is_discovered | not reality_is_objective | free_will_is_real | morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | not reality_is_objective | free_will_is_real | morality_is_illusion | truth_is_relative
+False: truth_is_discovered | reality_is_objective | not free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | reality_is_objective | not free_will_is_real | not morality_is_illusion | truth_is_relative
+False: truth_is_discovered | reality_is_objective | not free_will_is_real | morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | reality_is_objective | not free_will_is_real | morality_is_illusion | truth_is_relative
+True: truth_is_discovered | reality_is_objective | free_will_is_real | not morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | reality_is_objective | free_will_is_real | not morality_is_illusion | truth_is_relative
+False: truth_is_discovered | reality_is_objective | free_will_is_real | morality_is_illusion | not truth_is_relative
+False: truth_is_discovered | reality_is_objective | free_will_is_real | morality_is_illusion | truth_is_relative
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(((if morality_is_evolved then altruism_is_genetic) → ethics_are_adaptive) and progress_is_evolutionary) or (not truth_is_constant)
+
+True: not morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: not morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: not morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+False: not morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+True: not morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: not morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: not morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+True: not morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+True: not morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: not morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: not morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+False: not morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+True: not morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: not morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: not morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+True: not morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+True: morality_is_evolved | not altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+True: morality_is_evolved | not altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+False: morality_is_evolved | altruism_is_genetic | not ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | not truth_is_constant
+False: morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | not progress_is_evolutionary | truth_is_constant
+True: morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | not truth_is_constant
+True: morality_is_evolved | altruism_is_genetic | ethics_are_adaptive | progress_is_evolutionary | truth_is_constant
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(not (universe_is_ordered and chaos_is_an_illusion)) or ((if ethics_are_flexible then morality_is_adaptive) and truth_is_malleable)
+
+True: not universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+True: not universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+True: not universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+True: not universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: not universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: universe_is_ordered | not chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+False: universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+True: universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+False: universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: universe_is_ordered | chaos_is_an_illusion | not ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+False: universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | not truth_is_malleable
+False: universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | not morality_is_adaptive | truth_is_malleable
+False: universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | not truth_is_malleable
+True: universe_is_ordered | chaos_is_an_illusion | ethics_are_flexible | morality_is_adaptive | truth_is_malleable
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if ((science_can_explain_existence or religion_is_valid) and (if philosophy_is_valid then knowledge_is_limitless)) then (truth_is_subjective and morality_is_adaptive)
+
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+True: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: not science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | not religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+True: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+True: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | not religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | religion_is_valid | not philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+True: science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+True: science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | religion_is_valid | philosophy_is_valid | not knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | not morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | not truth_is_subjective | morality_is_adaptive
+False: science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | not morality_is_adaptive
+True: science_can_explain_existence | religion_is_valid | philosophy_is_valid | knowledge_is_limitless | truth_is_subjective | morality_is_adaptive
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not (((truth_is_discovered and reality_is_objective) → meaning_is_relative) or (ethics_are_contextual and progress_is_subjective))
+
+False: not truth_is_discovered | not reality_is_objective | not meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | not reality_is_objective | not meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+False: not truth_is_discovered | not reality_is_objective | not meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | not reality_is_objective | not meaning_is_relative | ethics_are_contextual | progress_is_subjective
+False: not truth_is_discovered | not reality_is_objective | meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | not reality_is_objective | meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+False: not truth_is_discovered | not reality_is_objective | meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | not reality_is_objective | meaning_is_relative | ethics_are_contextual | progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | not meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | not meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | not meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | not meaning_is_relative | ethics_are_contextual | progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: not truth_is_discovered | reality_is_objective | meaning_is_relative | ethics_are_contextual | progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | not meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | not meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | not meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | not meaning_is_relative | ethics_are_contextual | progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: truth_is_discovered | not reality_is_objective | meaning_is_relative | ethics_are_contextual | progress_is_subjective
+True: truth_is_discovered | reality_is_objective | not meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+True: truth_is_discovered | reality_is_objective | not meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+True: truth_is_discovered | reality_is_objective | not meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: truth_is_discovered | reality_is_objective | not meaning_is_relative | ethics_are_contextual | progress_is_subjective
+False: truth_is_discovered | reality_is_objective | meaning_is_relative | not ethics_are_contextual | not progress_is_subjective
+False: truth_is_discovered | reality_is_objective | meaning_is_relative | not ethics_are_contextual | progress_is_subjective
+False: truth_is_discovered | reality_is_objective | meaning_is_relative | ethics_are_contextual | not progress_is_subjective
+False: truth_is_discovered | reality_is_objective | meaning_is_relative | ethics_are_contextual | progress_is_subjective
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+(if (if god_does_not_exist then morality_is_arbitrary) then free_will_is_an_illusion) or (not truth_is_universal)
+
+True: not god_does_not_exist | not morality_is_arbitrary | not free_will_is_an_illusion | not truth_is_universal
+False: not god_does_not_exist | not morality_is_arbitrary | not free_will_is_an_illusion | truth_is_universal
+True: not god_does_not_exist | not morality_is_arbitrary | free_will_is_an_illusion | not truth_is_universal
+True: not god_does_not_exist | not morality_is_arbitrary | free_will_is_an_illusion | truth_is_universal
+True: not god_does_not_exist | morality_is_arbitrary | not free_will_is_an_illusion | not truth_is_universal
+False: not god_does_not_exist | morality_is_arbitrary | not free_will_is_an_illusion | truth_is_universal
+True: not god_does_not_exist | morality_is_arbitrary | free_will_is_an_illusion | not truth_is_universal
+True: not god_does_not_exist | morality_is_arbitrary | free_will_is_an_illusion | truth_is_universal
+True: god_does_not_exist | not morality_is_arbitrary | not free_will_is_an_illusion | not truth_is_universal
+True: god_does_not_exist | not morality_is_arbitrary | not free_will_is_an_illusion | truth_is_universal
+True: god_does_not_exist | not morality_is_arbitrary | free_will_is_an_illusion | not truth_is_universal
+True: god_does_not_exist | not morality_is_arbitrary | free_will_is_an_illusion | truth_is_universal
+True: god_does_not_exist | morality_is_arbitrary | not free_will_is_an_illusion | not truth_is_universal
+False: god_does_not_exist | morality_is_arbitrary | not free_will_is_an_illusion | truth_is_universal
+True: god_does_not_exist | morality_is_arbitrary | free_will_is_an_illusion | not truth_is_universal
+True: god_does_not_exist | morality_is_arbitrary | free_will_is_an_illusion | truth_is_universal
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+if (((the_universe_is_a_hologram and (consciousness_is_fundamental or reality_is_a_simulation)) → ethics_are_subjective)) then morality_is_arbitrary
+
+False: not the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: not the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+False: not the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: not the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+False: not the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: not the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+False: not the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: not the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: not the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+False: the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | not consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+True: the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | not consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+True: the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | consciousness_is_fundamental | not reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+True: the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | not ethics_are_subjective | morality_is_arbitrary
+False: the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | not morality_is_arbitrary
+True: the_universe_is_a_hologram | consciousness_is_fundamental | reality_is_a_simulation | ethics_are_subjective | morality_is_arbitrary
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+not ((existence_has_a_purpose and life_is_inherently_good) → (suffering_is_meaningful and (truth_is_absolute or morality_is_universal)))
+
+False: not existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+False: not existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | morality_is_universal
+False: not existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+False: not existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+False: not existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+False: existence_has_a_purpose | not life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | morality_is_universal
+True: existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+True: existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+True: existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+True: existence_has_a_purpose | life_is_inherently_good | not suffering_is_meaningful | truth_is_absolute | morality_is_universal
+True: existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | not morality_is_universal
+False: existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | not truth_is_absolute | morality_is_universal
+False: existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | not morality_is_universal
+False: existence_has_a_purpose | life_is_inherently_good | suffering_is_meaningful | truth_is_absolute | morality_is_universal
