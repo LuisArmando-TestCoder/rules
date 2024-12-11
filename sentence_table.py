@@ -26,14 +26,17 @@ def get_sentence_table(sentence):
         # print(tokens.keys())
         # print(truth_table.keys())
         token_keys = tokens.keys()
-
+        sentence_states = {
+            "False": "Contradictory",
+            "True": "Possible",
+        }
         
         # sentence_table
         for combo, result in truth_table.items():
             substitution_template = combo.replace("False", "not {}").replace("True", "{}")
             substitution = sequential_replace(substitution_template, token_keys)
 
-            sentence_table.append(f"{result}: {substitution}")
+            sentence_table.append(f"{sentence_states[str(result)]}: {substitution}")
         
     return sentence_table
 
