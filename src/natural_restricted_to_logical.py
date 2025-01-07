@@ -48,7 +48,7 @@ def substitute_strings(substitutions: Dict[str, str], source_string: str) -> str
 
     Args:
         substitutions (Dict[str, str]): A dictionary where keys are substrings to replace,
-                                         and values are the substitute strings.
+                                        and values are the substitute strings.
         source_string (str): The string in which to perform substitutions.
 
     Returns:

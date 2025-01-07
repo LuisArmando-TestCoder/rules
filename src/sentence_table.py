@@ -34,7 +34,7 @@ def get_sentence_table(sentence):
         # sentence_table
         for combo, result in truth_table.items():
             substitution_template = combo.replace("False", "not {}").replace("True", "{}")
-            substitution = sequential_replace(substitution_template, token_keys)
+            substitution = sequential_replace(substitution_template, token_keys).replace("|", "while")
 
             sentence_table.append(f"{sentence_states[str(result)]}: {substitution}")
         
