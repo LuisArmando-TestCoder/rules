@@ -1,4 +1,4 @@
-# Natural language to logic tables, for a bullet proof chat gpt logic module
+# Natural language to truth tables, for a bullet proof chat gpt logic module
 
 ChatGPT needs real logic, not an emergent one...
 
