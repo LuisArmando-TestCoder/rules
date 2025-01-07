@@ -1,9 +1,9 @@
-from natural_restricted_language import transform_to_logical
-from rules_maybe import LogicalLanguageProcessor
+from natural_restricted_to_logical import transform_to_logical
+from Logical_Language_Processor import Logical_Language_Processor
 
 def sequential_replace(template, replacements):
     for replacement in replacements:
-        template = template.replace("{}", replacement, 1)  # Reemplaza solo la primera ocurrencia
+        template = template.replace("{}", replacement, 1)
     return template
 
 def get_sentence_table(sentence):
@@ -12,7 +12,7 @@ def get_sentence_table(sentence):
     # sentence_to_
     semi_logical, tokens = transform_to_logical(sentence)
 
-    processor = LogicalLanguageProcessor()
+    processor = Logical_Language_Processor()
 
     # logic_to_
     logical_form, message = processor.process_sentence(semi_logical)

@@ -1,11 +1,8 @@
-from natural_restricted_language import transform_to_logical
-from rules_maybe import LogicalLanguageProcessor
-from natural_restricted_sentences import natural_restricted_sentences_debate_part_2
+from natural_restricted_to_logical import transform_to_logical
+from test_data.natural_restricted_sentences import natural_restricted_sentences_debate_part_2
 from sentence_table import get_sentence_table
 
 for naturalRestrictedSentence in natural_restricted_sentences_debate_part_2:
-    processor = LogicalLanguageProcessor()
-
     sentence_table = get_sentence_table(naturalRestrictedSentence)
 
     print("✅" * 50)

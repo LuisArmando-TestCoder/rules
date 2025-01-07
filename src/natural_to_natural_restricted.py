@@ -10,9 +10,9 @@ def get_text_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
-def transform_sentence_with_chatgpt(sentence: str) -> str:
+def get_natural_to_natural_restricted(sentence: str) -> str:
     prompt_template = get_text_from_file("prompt_template.txt")
-    print(prompt_template)
+    # print(prompt_template)
 
     # Crear el prompt para el modelo
     prompt = prompt_template.format(sentence=sentence)
@@ -37,12 +37,11 @@ def transform_sentence_with_chatgpt(sentence: str) -> str:
         print(f"Error inesperado: {e}")
         return ""
 
-# Ejemplo de uso
-input_sentence = "If desire is the root of all suffering, and suffering is the root of all greatness, then desire is the root of all greatness"
-transformed_sentence = transform_sentence_with_chatgpt(input_sentence)
+# input_sentence = "If desire is the root of all suffering, and suffering is the root of all greatness, then desire is the root of all greatness"
+# transformed_sentence = get_natural_to_natural_restricted(input_sentence)
 
-if transformed_sentence:
-    print("\nTransformación lógica:")
-    print(transformed_sentence)
-else:
-    print("No se generó la transformación.")
+# if transformed_sentence:
+#     print("\nTransformación lógica:")
+#     print(transformed_sentence)
+# else:
+#     print("No se generó la transformación.")

@@ -1,7 +1,7 @@
 import re
 import itertools
 
-class LogicalLanguageProcessor:
+class Logical_Language_Processor:
     def __init__(self):
         self.op_map = {
             "AND": "∧",
