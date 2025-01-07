@@ -36,3 +36,5 @@ sentence_table = get_sentence_table(naturalRestrictedSentence)
 for sentence_row in sentence_table:
     print(sentence_row)
 ```
+
+This project dives into the realm of logical reasoning and natural language processing. By translating natural language sentences into logical forms, we can achieve more structured and precise reasoning. 
