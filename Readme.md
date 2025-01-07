@@ -17,7 +17,7 @@ OPENAI_API_KEY=blablabla-this-is-a-palceholder-for-your-openai-api-key
 plug a string like
 
 ```
-If desire is the root of all suffering, and suffering is the root of all greatness, then desire is the root of all greatness
+If desire is the root of suffering, and suffering is the root of greatness, then desire is the root of greatness
 ```
 
 into the function 
