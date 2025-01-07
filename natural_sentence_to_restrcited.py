@@ -6,23 +6,13 @@ load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+def get_text_from_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return file.read()
+
 def transform_sentence_with_chatgpt(sentence: str) -> str:
-    """
-    Toma una oración y la transforma al formato lógico utilizando la API de OpenAI.
-
-    Args:
-        sentence (str): La oración original a transformar.
-
-    Returns:
-        str: La transformación en formato lógico.
-    """
-    prompt_template = (
-        "Transforma la siguiente oración a formato lógico como este ejemplo:\n"
-        "Si la entrada es: \"If desire is the root of all suffering, and suffering is the root of all greatness, then desire is the root of all greatness\"\n"
-        "Transforma a: \"If (desire_is_the_root_of_all_suffering and suffering_is_the_root_of_all_greatness) then desire_is_the_root_of_all_greatness\"\n"
-        "Oración original: \"{sentence}\"\n"
-        "Devuelve la transformación lógica asegurándote de mantener el significado original."
-    )
+    prompt_template = get_text_from_file("prompt_template.txt")
+    print(prompt_template)
 
     # Crear el prompt para el modelo
     prompt = prompt_template.format(sentence=sentence)
