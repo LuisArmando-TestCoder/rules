@@ -28,6 +28,12 @@ from natural_to_natural_restricted import get_natural_to_natural_restricted
 naturalRestrictedSentence = get_natural_to_natural_restricted(natural_sentence)
 ```
 
+which would be
+
+```t
+if (desire_is_the_root_of_all_suffering and suffering_is_the_root_of_all_greatness) then desire_is_the_root_of_all_greatness
+```
+
 and then turn that into a truth table
 
 ```py
@@ -37,4 +43,17 @@ for sentence_row in sentence_table:
     print(sentence_row)
 ```
 
-This project dives into the realm of logical reasoning and natural language processing. By translating natural language sentences into logical forms, we can achieve more structured and precise reasoning. 
+which would return the following
+
+```t
+Possible: not desire_is_the_root_of_all_suffering | not suffering_is_the_root_of_all_greatness | not desire_is_the_root_of_all_greatness
+Possible: not desire_is_the_root_of_all_suffering | not suffering_is_the_root_of_all_greatness | desire_is_the_root_of_all_greatness
+Possible: not desire_is_the_root_of_all_suffering | suffering_is_the_root_of_all_greatness | not desire_is_the_root_of_all_greatness
+Possible: not desire_is_the_root_of_all_suffering | suffering_is_the_root_of_all_greatness | desire_is_the_root_of_all_greatness
+Possible: desire_is_the_root_of_all_suffering | not suffering_is_the_root_of_all_greatness | not desire_is_the_root_of_all_greatness
+Possible: desire_is_the_root_of_all_suffering | not suffering_is_the_root_of_all_greatness | desire_is_the_root_of_all_greatness
+Contradictory: desire_is_the_root_of_all_suffering | suffering_is_the_root_of_all_greatness | not desire_is_the_root_of_all_greatness
+Possible: desire_is_the_root_of_all_suffering | suffering_is_the_root_of_all_greatness | desire_is_the_root_of_all_greatness
+```
+
+**This project dives into the realm of logical reasoning and natural language processing. By translating natural language sentences into logical forms, we can achieve more structured and precise reasoning.**
