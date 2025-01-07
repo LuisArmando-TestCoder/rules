@@ -4,7 +4,7 @@ from sentence_table import get_sentence_table
 from natural_to_natural_restricted import get_natural_to_natural_restricted
 
 for natural_sentence in natural_sentences_philosophy:
-    naturalRestrictedSentence = "if (desire_is_the_root_of_all_suffering and suffering_is_the_root_of_all_greatness) then desire_is_the_root_of_all_greatness"
+    naturalRestrictedSentence = get_sentence_table(natural_sentence)
     sentence_table = get_sentence_table(naturalRestrictedSentence)
 
     print(f"\n{naturalRestrictedSentence}\n")
